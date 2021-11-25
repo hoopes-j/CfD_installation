@@ -40,11 +40,45 @@ The audio for the continuous aspect of the interaction should be something that 
         <code>audio</code> element.
 </audio>
 
-[Audio File](./installation_sample_continuous_1.wav)
+<audio
+    controls
+    src="installation_sample_continuous_3.wav">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+
+<audio
+    controls
+    src="installation_sample_continuous_pitch.wav">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+
 
 The next two audio files exemplify how grain size can be modulated to make the word ‘emerge’ from the mix. They are using the same ‘artifical intelligence’ recording. You will also hear some changes in pitch - these are to show how the signal (or parts of the signal) can be ‘played’.
 
+<audio
+    controls
+    src="installation_sample_emerge_1.wav">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+
+<audio
+    controls
+    src="installation_sample_notes_emerge_2.wav">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+
 When both of these are mixed together, they result in the following file. This exemplifies how the ‘playable’ portion of the interaction can be layered on top of, and merge with the ‘continuous’ portion of the interaction. 
+
+<audio
+    controls
+    src="installation_sample_summation.wav">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
 
 These samples were generated with the following effect chain: 
 
