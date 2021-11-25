@@ -13,14 +13,14 @@ Below are some pictures of the installation space, pictured with 2 different dis
      style="float: left; margin-right: 10px;" />
 
 
- If we want a maximum distance of more than 2 meters, it will raise by the price of the sensor (looking at about 30 dollars). However, we would only be using one or two, so this wouldn’t be the end of the world. Additionally, this longer range sensor would allow us to work with any distance less than 5 meters. In other words, we can always detect a shorter distance with a longer range sensor, but not the other way around.
+ If we want a maximum distance of more than 2 meters, it will raise the price of the sensor (looking at about 30 dollars). However, we would only be using one or two, so this wouldn’t be the end of the world. Additionally, this longer range sensor would allow us to work with any distance less than 5 meters. In other words, we can always detect a shorter distance with a longer range sensor, but not the other way around.
 
  Somewhere around 2.5-3 meters might be the sweet spot, but we would be interested in hearing additional opinions on this number.
 
  When somebody walks by and triggers the sensor, it will trigger the continuous audio for several seconds (maybe somewhere between 10-20 seconds), before fading out. The specifics of this audio are outlined in the next section. The amount of seconds is another value that can be easily changed (would come down to just changing a numerical constant in the code). This value can be tuned during the testing phases to see what amount of time feels the best. 
 
 ### *Focused Interaction*
- Previously we had proposed using an array of IR sensors on both the horizontal and vertical sections of the window bevel to track (x,y) location of a hand/object inside the window. However, we have slightly altered this to make the implementation a little simpler. The updated approach is to only place IR sensors on the bottom of the window, and use distance readings to track the height of the hand/object. However, the interaction paradigm will be the same (height will control which 'design context' is 'activated', and horizontal position will control pitch).
+ Previously we had proposed using an array of IR sensors on both the horizontal and vertical sections of the window bevel to track (x,y) location of a hand/object inside the window. However, we have slightly altered this to make the implementation a little simpler. The updated approach is to only place IR sensors on the bottom of the window, and use distance readings to track the height of the hand/object. The interaction paradigm will remain the same (height will control which 'design context' is 'activated', and horizontal position will control pitch).
 
  Visitor's movements while using the installation could be intentional or random, meaning that: one could intentionally target pitches and try to 'play' a melody, or they could simply sweep their hand (or any object) randomly along the window, and still experience some output.  
 
