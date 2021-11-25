@@ -35,7 +35,7 @@ The audio for the continuous aspect of the interaction should be something that 
 
 <audio
     controls
-    src="installation_sample_continuous_1.wav">
+    src="installation_sample_continuous_2.wav">
         Your browser does not support the
         <code>audio</code> element.
 </audio>
