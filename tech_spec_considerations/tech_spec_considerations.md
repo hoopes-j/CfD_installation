@@ -25,25 +25,3 @@ The code for this should be reasonably simple, and I am working on a program to 
 I will report on my findings on the hardware in about a week so we can get creative with our implementation. Any fine-tunings or adjustments later will be made easier once we test this hardware with our first idea.
 
 Any and all feedback is welcome!
-
-@charlesdaigle
-Commit new file
-Commit summary
-Create Tech Spec Considerations 
-Optional extended description
-Add an optional extended description…
- Commit directly to the master branch.
- Create a new branch for this commit and start a pull request. Learn more about pull requests.
- 
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
