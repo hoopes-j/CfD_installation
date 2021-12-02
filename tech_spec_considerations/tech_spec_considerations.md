@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@charlesdaigle 
-hoopes-j
-/
-CfD_installation
-Public
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-CfD_installation
-/
-tech_spec_considerations
-/
-Tech Spec Considerations 
-in
-master
- 
 ## __Tech Spec Considerations__
 
 ### *Continuous  Interaction*
