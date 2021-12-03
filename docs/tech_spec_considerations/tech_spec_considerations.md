@@ -4,20 +4,21 @@
 The 2-3 meter continuous interaction will trigger some continuous event. A sonar sensor will sit fixed 1m up the wall, and point parallel to the floor out at foot traffic by the Center for Design. A steady flow of traffic can continuously trigger a sound to attract attention.
 
 Care should be taken to make this sound as pleasant as possible so it sounds "believable" and truly continuous.
-
+<div class="img-container">
  <img src="./horizontal.png"
      alt="Continuous interaction."
      style="float: left;
     margin-right: 10px;" />
-
+</div>
 ### *Focused  Interaction*
 The "focused" interaction will take place in the plane of the window. By using IR sensors active between 15-150cm, the user can trigger multiple distinct sound events (arranged in x-axis) and play with the height of their hand in the window, which will function as a generic "expression" dimension (in the y-axis).
-
+<div class="img-container" 
+    style="display: block;">
  <img src="./vertical.png"
      alt="Focused interaction."
      style="float: left;
     margin-right: 10px;" />
-
+</div>
 ### *Software*
 The code for this should be reasonably simple, and I am working on a program to test the activation, expression, and controllability of this hardware system. 
 

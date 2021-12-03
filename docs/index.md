@@ -1,6 +1,6 @@
 ## __Physical Properties__
 
-### _**subsections**_
+### _**Pages:**_
 
 [technical specs considerations](./tech_spec_considerations/tech_spec_considerations.md)
 
