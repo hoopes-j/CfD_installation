@@ -20,11 +20,11 @@ C++ Real-Time Audio Programming with Bela - Lecture 8: Filters
 #include <string>
 #include <cmath>
 
-class MonoFilePlayer {
+class GrainGenerator {
 public:
 	// Constructors: the one with arguments automatically calls setup()
-	MonoFilePlayer() {}
-	MonoFilePlayer(const std::string& filename, bool loop = true, bool autostart = true);
+	GrainGenerator() {}
+	GrainGenerator(const std::string& filename, bool loop = true, bool autostart = true);
 	
 	// Load an audio file from the given filename. Returns true on success.
 	bool setup(const std::string& filename,int sampleRate, bool loop = true, bool autostart = true);
@@ -51,7 +51,7 @@ public:
 	float getWindowedAmplitude(float sample);
 	
 	// Destructor
-	~MonoFilePlayer() {}
+	~GrainGenerator() {}
 	
 private:
 	std::vector<float> sampleBuffer_;			// Buffer that holds the sound file

@@ -16,7 +16,7 @@ C++ Real-Time Audio Programming with Bela - Lecture 8: Filters
 #include <libraries/Scope/Scope.h>
 
 // Constructor taking the path of a file to load
-MonoFilePlayer::MonoFilePlayer(const std::string& filename, bool loop, bool autostart)
+GrainGenerator::GrainGenerator(const std::string& filename, bool loop, bool autostart)
 {
 	setup(filename, loop, autostart,0);	
 }
@@ -24,7 +24,7 @@ MonoFilePlayer::MonoFilePlayer(const std::string& filename, bool loop, bool auto
 int gRand = 0;
 
 // Load an audio file from the given filename. Returns true on success.
-bool MonoFilePlayer::setup(const std::string& filename,  int sampleRate, bool loop, bool autostart)
+bool GrainGenerator::setup(const std::string& filename,  int sampleRate, bool loop, bool autostart)
 {
 	readPointer_ = 0;
 	stopped = false;
@@ -46,11 +46,12 @@ bool MonoFilePlayer::setup(const std::string& filename,  int sampleRate, bool lo
 	
 	this->randy = spray_ != 0 ? (rand()%(int)spray_) : 0;
 	
+	
 	return true;
 }
 
 // Tell the buffer to start playing from the beginning
-void MonoFilePlayer::trigger()
+void GrainGenerator::trigger()
 {
 		if(sampleBuffer_.empty())
 			return;
@@ -59,20 +60,20 @@ void MonoFilePlayer::trigger()
 		this->randy = spray_ != 0 ? (rand()%(int)spray_) : 0;
 }
 
-void MonoFilePlayer::setSpeed(float speed) 
+void GrainGenerator::setSpeed(float speed) 
 {
 	this->playbackSpeed = speed;
 }
-void MonoFilePlayer::setDuration(int duration)
+void GrainGenerator::setDuration(int duration)
 {
 	this->duration_samps = duration;
 }
-void MonoFilePlayer::setFilePos(int filePos) 
+void GrainGenerator::setFilePos(int filePos) 
 {
 	this->filePos = filePos;
 }
 
-float MonoFilePlayer::getWindowedAmplitude(float sample) {
+float GrainGenerator::getWindowedAmplitude(float sample) {
 	float threshold = 4410;
 	if (sample < threshold) {
 		return map(sample,0,4410,0,1);
@@ -83,7 +84,7 @@ float MonoFilePlayer::getWindowedAmplitude(float sample) {
 }
 
 // Return the next sample of the loaded audio file
-float MonoFilePlayer::process()
+float GrainGenerator::process()
 {
 	if(stopped)	
 		return 0;
@@ -115,43 +116,7 @@ float MonoFilePlayer::process()
 		stopped = true;
 	}
 		
-	
-	// int prevIdx = floorf(grainPointer);
-	// int nextIdx = prevIdx + 1;
-	// if (nextIdx >= grainSize) {
-	// 	nextIdx = 0;
-	// }
-	
-	// float fracBelow = grainPointer - prevIdx;
-	// float fracAbove = 1 - fracBelow;
-	
-	// int prevPrime = prevIdx + filePos + randy;
-	// int nextPrime = nextIdx + filePos + randy;
-	
-	// if(nextPrime >= size()) {
-	// 	nextPrime = nextIdx % size();
-	// }
-	// if(prevPrime>= size()) {
-	// 	prevPrime = prevIdx % size();
-	// }
-	// // Read the next sample from the buffer
-	// float out = sampleBuffer_[prevPrime] * fracBelow + sampleBuffer_[nextPrime] * fracAbove;
-        
-	// // Increment read pointer
- //   grainPointer += playbackSpeed;
- //   envelopePointer++;
-    
- //   //windowing
- //   out = out *getWindowedAmplitude(envelopePointer);
-    
- //   // If we reach the end, decide whether to loop or stop
- //   if(grainPointer >= grainSize/playbackSpeed) {
- //    	grainPointer = 0;
-     	
- //    	//if(!loop_)
- //   }
-    
-    
+
     return out;
 }
 	

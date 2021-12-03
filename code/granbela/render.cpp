@@ -28,7 +28,7 @@ int gCounter = 0;
 int numVoices = 4;
 int voiceLocation = 0;
 
-MonoFilePlayer grain_generators[4]; 
+GrainGenerator grain_generators[4]; 
 
 
 float onset_samps;
@@ -51,7 +51,7 @@ bool setup(BelaContext *context, void *userData)
 {	
     
     for (int i=0;i<numVoices;i++) {
-		MonoFilePlayer grain;
+		GrainGenerator grain;
 		// Load the audio file into each grain voice
 		grain_generators[i] = grain;
 		if(!grain_generators[i].setup(gFilename,context->audioSampleRate,false,false)) {
@@ -72,10 +72,6 @@ bool setup(BelaContext *context, void *userData)
 	//setup gui
 	gui.setup(context->projectName);
 	gui.setBuffer('f', 8);
-	// controller.setup(&gui, "Sample Playback");	
-	// controller.addSlider("Playback Speed",1.0,0.0,4.0,0.0);
-	// controller.addSlider("grain Size", gPlayer.size(), 1.0, gPlayer.size(), 0.0);
-	// controller.addSlider("file position", 0,0,gPlayer.size(), 0);
 	return true;
 	
 }
@@ -92,10 +88,6 @@ void triggerNote(int sensor_idx) {
 void render(BelaContext *context, void *userData)
 {
 
-	//old gui
-	// float speed = controller.getSliderValue(0);
-	// int grainSize = controller.getSliderValue(1);
-	// int filePos = controller.getSliderValue(2);
 
 	DataBuffer& buffer = gui.getDataBuffer(0);
 	float* data = buffer.getAsFloat();

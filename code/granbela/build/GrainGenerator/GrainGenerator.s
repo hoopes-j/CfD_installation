@@ -19,8 +19,8 @@
 	.eabi_attribute	26, 2	@ Tag_ABI_enum_size
 	.eabi_attribute	14, 0	@ Tag_ABI_PCS_R9_use
 	.eabi_attribute	68, 1	@ Tag_Virtualization_use
-	.file	"/root/Bela/projects/gran_copy/build/GrainGenerator/GrainGenerator.bc"
-	.file	1 "/root/Bela/projects/gran_copy/GrainGenerator" "GrainGenerator.cpp"
+	.file	"/root/Bela/projects/gran_git/build/GrainGenerator/GrainGenerator.bc"
+	.file	1 "/root/Bela/projects/gran_git/GrainGenerator" "GrainGenerator.cpp"
 	.file	2 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/arm-linux-gnueabihf/c++/6.3.0/bits" "c++config.h"
 	.file	3 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/ext" "concurrence.h"
 	.file	4 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits" "alloc_traits.h"
@@ -52,12 +52,12 @@
 	.file	30 "/usr/include/arm-linux-gnueabihf/bits" "math-finite.h"
 	.file	31 "/usr/include/arm-linux-gnueabihf/bits" "mathcalls.h"
 	.file	32 "/usr/include/arm-linux-gnueabihf/bits" "mathdef.h"
-	.globl	_ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
+	.globl	_ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
 	.p2align	2
-	.type	_ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb,%function
-_ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb: @ @_ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
+	.type	_ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb,%function
+_ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb: @ @_ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
 .Lfunc_begin0:
-	.loc	1 20 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:20:0
+	.loc	1 20 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:20:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
@@ -79,50 +79,50 @@ _ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb: 
 	.cfi_def_cfa r11, 8
 	.pad	#8
 	sub	sp, sp, #8
-	@DEBUG_VALUE: MonoFilePlayer:this <- %R0
-	@DEBUG_VALUE: MonoFilePlayer:filename <- %R1
-	@DEBUG_VALUE: MonoFilePlayer:loop [bit_piece offset=0 size=1] <- %R2
-	@DEBUG_VALUE: MonoFilePlayer:autostart [bit_piece offset=0 size=1] <- %R3
+	@DEBUG_VALUE: GrainGenerator:this <- %R0
+	@DEBUG_VALUE: GrainGenerator:filename <- %R1
+	@DEBUG_VALUE: GrainGenerator:loop [bit_piece offset=0 size=1] <- %R2
+	@DEBUG_VALUE: GrainGenerator:autostart [bit_piece offset=0 size=1] <- %R3
 .Ltmp9:
 	.loc	9 87 34 prologue_end    @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:87:34
 	vmov.i32	q8, #0x0
 	mov	r4, r0
 .Ltmp10:
-	@DEBUG_VALUE: MonoFilePlayer:this <- %R4
-	.file	33 "/root/Bela/projects/gran_copy/GrainGenerator" "GrainGenerator.h"
-	.loc	33 59 8                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.h:59:8
+	@DEBUG_VALUE: GrainGenerator:this <- %R4
+	.file	33 "/root/Bela/projects/gran_git/GrainGenerator" "GrainGenerator.h"
+	.loc	33 59 8                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.h:59:8
 	mov	r2, #1065353216
 .Ltmp11:
 	.loc	9 87 34                 @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:87:34
 	vst1.32	{d16, d17}, [r0]!
 .Ltmp12:
-	.loc	33 59 8                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.h:59:8
+	.loc	33 59 8                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.h:59:8
 	str	r2, [r0]
 	mov	r0, #0
-	.loc	33 62 8                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.h:62:8
+	.loc	33 62 8                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.h:62:8
 	str	r0, [r4, #28]
-	.loc	33 64 8                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.h:64:8
+	.loc	33 64 8                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.h:64:8
 	str	r0, [r4, #36]
 .Ltmp13:
-	.loc	1 21 2                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:21:2
+	.loc	1 21 2                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:21:2
 .Ltmp0:
 	str	r0, [sp]
 	mov	r0, r4
 	mov	r3, #0
 .Ltmp14:
-	bl	_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
+	bl	_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
 .Ltmp15:
 .Ltmp1:
 .Ltmp16:
 @ BB#1:
-	@DEBUG_VALUE: MonoFilePlayer:this <- %R4
-	.loc	1 22 1                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:22:1
+	@DEBUG_VALUE: GrainGenerator:this <- %R4
+	.loc	1 22 1                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:22:1
 	mov	r0, r4
 	sub	sp, r11, #8
 	pop	{r4, r5, r11, pc}
 .Ltmp17:
 .LBB0_2:
-	@DEBUG_VALUE: MonoFilePlayer:this <- %R4
+	@DEBUG_VALUE: GrainGenerator:this <- %R4
 .Ltmp2:
 	mov	r5, r0
 .Ltmp18:
@@ -140,17 +140,17 @@ _ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb: 
 	@DEBUG_VALUE: deallocate:__p <- %R0
 	@DEBUG_VALUE: deallocate:__p <- %R0
 	@DEBUG_VALUE: _M_deallocate:__p <- %R0
-	@DEBUG_VALUE: MonoFilePlayer:this <- %R4
+	@DEBUG_VALUE: GrainGenerator:this <- %R4
 	.loc	5 110 9                 @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/ext/new_allocator.h:110:9
 	bl	_ZdlPv
 .Ltmp21:
 .LBB0_4:                                @ %_ZNSt6vectorIfSaIfEED2Ev.exit
-	@DEBUG_VALUE: MonoFilePlayer:this <- %R4
+	@DEBUG_VALUE: GrainGenerator:this <- %R4
 	mov	r0, r5
 	mov	lr, pc
 	b	_Unwind_Resume
 .Lfunc_end0:
-	.size	_ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb, .Lfunc_end0-_ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
+	.size	_ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb, .Lfunc_end0-_ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
 	.cfi_endproc
 	.file	34 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits" "stringfwd.h"
 	.globl	__gxx_personality_v0
@@ -175,12 +175,12 @@ GCC_except_table0:
 	.p2align	2
 	.fnend
 
-	.globl	_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
+	.globl	_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
 	.p2align	2
-	.type	_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb,%function
-_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb: @ @_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
+	.type	_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb,%function
+_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb: @ @_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
 .Lfunc_begin1:
-	.loc	1 28 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:28:0
+	.loc	1 28 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:28:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
@@ -217,11 +217,11 @@ _ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 	@DEBUG_VALUE: operator=:__x <- %R0
 	mov	r5, #0
 .Ltmp30:
-	.loc	1 29 15 prologue_end    @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:29:15
+	.loc	1 29 15 prologue_end    @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:29:15
 	str	r5, [r4, #12]
-	.loc	1 30 10                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:30:10
+	.loc	1 30 10                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:30:10
 	strb	r5, [r4, #48]
-	.loc	1 33 18 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:33:18
+	.loc	1 33 18 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:33:18
 	bl	_ZN18AudioFileUtilities8loadMonoERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 .Ltmp31:
 	.file	35 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits" "move.h"
@@ -291,7 +291,7 @@ _ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 	.loc	9 558 45                @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:558:45
 	ldm	r4, {r0, r2}
 .Ltmp42:
-	.loc	1 36 5                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:36:5
+	.loc	1 36 5                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:36:5
 	cmp	r0, r2
 	beq	.LBB1_7
 .Ltmp43:
@@ -302,19 +302,19 @@ _ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 	sub	r0, r2, r0
 	mov	r1, #0
 .Ltmp44:
-	.loc	1 41 17                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:41:17
+	.loc	1 41 17                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:41:17
 	str	r1, [r4, #44]
 .Ltmp45:
 	@DEBUG_VALUE: setup:max_duration <- 0.000000e+00
-	.loc	1 47 16                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:47:16
+	.loc	1 47 16                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:47:16
 	mvn	r2, #-2147483648
 .Ltmp46:
 	.loc	9 656 50                @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:656:50
 	asr	r0, r0, #2
 .Ltmp47:
-	.loc	1 45 17                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:45:17
+	.loc	1 45 17                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:45:17
 	str	r0, [r4, #20]
-	.loc	1 47 16                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:47:16
+	.loc	1 47 16                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:47:16
 	ldr	r0, [r4, #36]
 	tst	r0, r2
 	beq	.LBB1_6
@@ -322,48 +322,48 @@ _ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 @ BB#5:
 	@DEBUG_VALUE: setup:this <- %R4
 	@DEBUG_VALUE: setup:autostart [bit_piece offset=0 size=1] <-  [complex expression]
-	.loc	1 47 31 is_stmt 0 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:47:31
+	.loc	1 47 31 is_stmt 0 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:47:31
 	bl	rand
-	.loc	1 47 43 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:47:43
+	.loc	1 47 43 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:47:43
 	vldr	s0, [r4, #36]
 	vcvt.s32.f32	d0, d0
 	vmov	r1, s0
-	.loc	1 47 37 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:47:37
+	.loc	1 47 37 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:47:37
 	bl	__aeabi_idivmod
 .Ltmp49:
 .LBB1_6:
 	@DEBUG_VALUE: setup:this <- %R4
 	@DEBUG_VALUE: setup:autostart [bit_piece offset=0 size=1] <-  [complex expression]
-	.loc	1 47 14 discriminator 3 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:47:14
+	.loc	1 47 14 discriminator 3 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:47:14
 	str	r1, [r4, #32]
 	mov	r0, #1
-	.loc	1 50 1 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:50:1
+	.loc	1 51 1 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:51:1
 	sub	sp, r11, #8
 	pop	{r4, r5, r11, pc}
 .Ltmp50:
 .LBB1_7:
 	@DEBUG_VALUE: setup:this <- %R4
 	@DEBUG_VALUE: setup:autostart [bit_piece offset=0 size=1] <-  [complex expression]
-	.loc	1 37 11                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:37:11
+	.loc	1 37 11                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:37:11
 	mov	r0, #1
 	strb	r0, [r4, #48]
 	mov	r0, #0
 .Ltmp51:
-	.loc	1 50 1 discriminator 1  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:50:1
+	.loc	1 51 1 discriminator 1  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:51:1
 	sub	sp, r11, #8
 	pop	{r4, r5, r11, pc}
 .Ltmp52:
 .Lfunc_end1:
-	.size	_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb, .Lfunc_end1-_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
+	.size	_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb, .Lfunc_end1-_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb
 	.cfi_endproc
 	.fnend
 
-	.globl	_ZN14MonoFilePlayer7triggerEv
+	.globl	_ZN14GrainGenerator7triggerEv
 	.p2align	2
-	.type	_ZN14MonoFilePlayer7triggerEv,%function
-_ZN14MonoFilePlayer7triggerEv:          @ @_ZN14MonoFilePlayer7triggerEv
+	.type	_ZN14GrainGenerator7triggerEv,%function
+_ZN14GrainGenerator7triggerEv:          @ @_ZN14GrainGenerator7triggerEv
 .Lfunc_begin2:
-	.loc	1 54 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:54:0
+	.loc	1 55 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:55:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
@@ -390,111 +390,111 @@ _ZN14MonoFilePlayer7triggerEv:          @ @_ZN14MonoFilePlayer7triggerEv
 	.loc	9 558 45 prologue_end   @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:558:45
 	ldm	r4, {r0, r1}
 .Ltmp60:
-	.loc	1 55 6                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:55:6
+	.loc	1 56 6                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:56:6
 	cmp	r0, r1
-	.loc	1 60 1 discriminator 1  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:60:1
+	.loc	1 61 1 discriminator 1  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:61:1
 	popeq	{r4, r10, r11, pc}
 .Ltmp61:
 	mov	r1, #0
-	.loc	1 59 17                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:59:17
+	.loc	1 60 17                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:60:17
 	mvn	r2, #-2147483648
-	.loc	1 57 19                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:57:19
+	.loc	1 58 19                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:58:19
 	str	r1, [r4, #40]
-	.loc	1 58 11                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:58:11
+	.loc	1 59 11                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:59:11
 	strb	r1, [r4, #48]
-	.loc	1 59 17                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:59:17
+	.loc	1 60 17                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:60:17
 	ldr	r0, [r4, #36]
 	tst	r0, r2
 	beq	.LBB2_2
 @ BB#1:
-	.loc	1 59 32 is_stmt 0 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:59:32
+	.loc	1 60 32 is_stmt 0 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:60:32
 	bl	rand
-	.loc	1 59 44 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:59:44
+	.loc	1 60 44 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:60:44
 	vldr	s0, [r4, #36]
 	vcvt.s32.f32	d0, d0
 	vmov	r1, s0
-	.loc	1 59 38 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:59:38
+	.loc	1 60 38 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:60:38
 	bl	__aeabi_idivmod
 .LBB2_2:
-	.loc	1 59 15 discriminator 3 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:59:15
+	.loc	1 60 15 discriminator 3 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:60:15
 	str	r1, [r4, #32]
-	.loc	1 60 1 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:60:1
+	.loc	1 61 1 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:61:1
 	pop	{r4, r10, r11, pc}
 .Ltmp62:
 .Lfunc_end2:
-	.size	_ZN14MonoFilePlayer7triggerEv, .Lfunc_end2-_ZN14MonoFilePlayer7triggerEv
+	.size	_ZN14GrainGenerator7triggerEv, .Lfunc_end2-_ZN14GrainGenerator7triggerEv
 	.cfi_endproc
 	.fnend
 
-	.globl	_ZN14MonoFilePlayer8setSpeedEf
+	.globl	_ZN14GrainGenerator8setSpeedEf
 	.p2align	2
-	.type	_ZN14MonoFilePlayer8setSpeedEf,%function
-_ZN14MonoFilePlayer8setSpeedEf:         @ @_ZN14MonoFilePlayer8setSpeedEf
+	.type	_ZN14GrainGenerator8setSpeedEf,%function
+_ZN14GrainGenerator8setSpeedEf:         @ @_ZN14GrainGenerator8setSpeedEf
 .Lfunc_begin3:
-	.loc	1 63 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:63:0
+	.loc	1 64 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:64:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
 	@DEBUG_VALUE: setSpeed:this <- %R0
 	@DEBUG_VALUE: setSpeed:speed <- %S0
-	.loc	1 64 22 prologue_end    @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:64:22
+	.loc	1 65 22 prologue_end    @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:65:22
 	vstr	s0, [r0, #16]
-	.loc	1 65 1                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:65:1
+	.loc	1 66 1                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:66:1
 	bx	lr
 .Ltmp63:
 .Lfunc_end3:
-	.size	_ZN14MonoFilePlayer8setSpeedEf, .Lfunc_end3-_ZN14MonoFilePlayer8setSpeedEf
+	.size	_ZN14GrainGenerator8setSpeedEf, .Lfunc_end3-_ZN14GrainGenerator8setSpeedEf
 	.cfi_endproc
 	.fnend
 
-	.globl	_ZN14MonoFilePlayer11setDurationEi
+	.globl	_ZN14GrainGenerator11setDurationEi
 	.p2align	2
-	.type	_ZN14MonoFilePlayer11setDurationEi,%function
-_ZN14MonoFilePlayer11setDurationEi:     @ @_ZN14MonoFilePlayer11setDurationEi
+	.type	_ZN14GrainGenerator11setDurationEi,%function
+_ZN14GrainGenerator11setDurationEi:     @ @_ZN14GrainGenerator11setDurationEi
 .Lfunc_begin4:
-	.loc	1 67 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:67:0
+	.loc	1 68 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:68:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
 	@DEBUG_VALUE: setDuration:this <- %R0
 	@DEBUG_VALUE: setDuration:duration <- %R1
-	.loc	1 68 23 prologue_end    @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:68:23
+	.loc	1 69 23 prologue_end    @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:69:23
 	str	r1, [r0, #20]
-	.loc	1 69 1                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:69:1
+	.loc	1 70 1                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:70:1
 	bx	lr
 .Ltmp64:
 .Lfunc_end4:
-	.size	_ZN14MonoFilePlayer11setDurationEi, .Lfunc_end4-_ZN14MonoFilePlayer11setDurationEi
+	.size	_ZN14GrainGenerator11setDurationEi, .Lfunc_end4-_ZN14GrainGenerator11setDurationEi
 	.cfi_endproc
 	.fnend
 
-	.globl	_ZN14MonoFilePlayer10setFilePosEi
+	.globl	_ZN14GrainGenerator10setFilePosEi
 	.p2align	2
-	.type	_ZN14MonoFilePlayer10setFilePosEi,%function
-_ZN14MonoFilePlayer10setFilePosEi:      @ @_ZN14MonoFilePlayer10setFilePosEi
+	.type	_ZN14GrainGenerator10setFilePosEi,%function
+_ZN14GrainGenerator10setFilePosEi:      @ @_ZN14GrainGenerator10setFilePosEi
 .Lfunc_begin5:
-	.loc	1 71 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:71:0
+	.loc	1 72 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:72:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
 	@DEBUG_VALUE: setFilePos:this <- %R0
 	@DEBUG_VALUE: setFilePos:filePos <- %R1
-	.loc	1 72 16 prologue_end    @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:72:16
+	.loc	1 73 16 prologue_end    @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:73:16
 	str	r1, [r0, #24]
-	.loc	1 73 1                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:73:1
+	.loc	1 74 1                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:74:1
 	bx	lr
 .Ltmp65:
 .Lfunc_end5:
-	.size	_ZN14MonoFilePlayer10setFilePosEi, .Lfunc_end5-_ZN14MonoFilePlayer10setFilePosEi
+	.size	_ZN14GrainGenerator10setFilePosEi, .Lfunc_end5-_ZN14GrainGenerator10setFilePosEi
 	.cfi_endproc
 	.fnend
 
-	.globl	_ZN14MonoFilePlayer20getWindowedAmplitudeEf
+	.globl	_ZN14GrainGenerator20getWindowedAmplitudeEf
 	.p2align	2
-	.type	_ZN14MonoFilePlayer20getWindowedAmplitudeEf,%function
-_ZN14MonoFilePlayer20getWindowedAmplitudeEf: @ @_ZN14MonoFilePlayer20getWindowedAmplitudeEf
+	.type	_ZN14GrainGenerator20getWindowedAmplitudeEf,%function
+_ZN14GrainGenerator20getWindowedAmplitudeEf: @ @_ZN14GrainGenerator20getWindowedAmplitudeEf
 .Lfunc_begin6:
-	.loc	1 75 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:75:0
+	.loc	1 76 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:76:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
@@ -502,10 +502,10 @@ _ZN14MonoFilePlayer20getWindowedAmplitudeEf: @ @_ZN14MonoFilePlayer20getWindowed
 	@DEBUG_VALUE: getWindowedAmplitude:sample <- %S0
                                         @ kill: %S0<def> %S0<kill> %D0<def>
 .Ltmp66:
-	.loc	1 77 13 prologue_end    @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:77:13
+	.loc	1 78 13 prologue_end    @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:78:13
 	vldr	s4, .LCPI6_0
 .Ltmp67:
-	.loc	1 77 6 is_stmt 0        @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:77:6
+	.loc	1 78 6 is_stmt 0        @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:78:6
 	vmov.f32	d1, #1.000000e+00
 .Ltmp68:
 	.file	36 "./include" "Utilities.h"
@@ -517,16 +517,16 @@ _ZN14MonoFilePlayer20getWindowedAmplitudeEf: @ @_ZN14MonoFilePlayer20getWindowed
 	@DEBUG_VALUE: map:in_max <- 4.410000e+03
 	@DEBUG_VALUE: map:in_min <- 0.000000e+00
 	@DEBUG_VALUE: getWindowedAmplitude:threshold <- 4.410000e+03
-	.loc	1 77 6                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:77:6
+	.loc	1 78 6                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:78:6
 	vcmpe.f32	s0, s4
 	vmrs	APSR_nzcv, fpscr
 .Ltmp70:
 	.loc	36 73 44                @ ./include/Utilities.h:73:44
 	vmul.f32	d3, d0, d3
 .Ltmp71:
-	.loc	1 77 6                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:77:6
+	.loc	1 78 6                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:78:6
 	vmovlt.f32	s2, s6
-	.loc	1 83 1                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:83:1
+	.loc	1 84 1                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:84:1
 	vmov.f32	s0, s2
 	bx	lr
 .Ltmp72:
@@ -537,16 +537,16 @@ _ZN14MonoFilePlayer20getWindowedAmplitudeEf: @ @_ZN14MonoFilePlayer20getWindowed
 .LCPI6_1:
 	.long	963495352               @ float 2.26757373E-4
 .Lfunc_end6:
-	.size	_ZN14MonoFilePlayer20getWindowedAmplitudeEf, .Lfunc_end6-_ZN14MonoFilePlayer20getWindowedAmplitudeEf
+	.size	_ZN14GrainGenerator20getWindowedAmplitudeEf, .Lfunc_end6-_ZN14GrainGenerator20getWindowedAmplitudeEf
 	.cfi_endproc
 	.fnend
 
-	.globl	_ZN14MonoFilePlayer7processEv
+	.globl	_ZN14GrainGenerator7processEv
 	.p2align	3
-	.type	_ZN14MonoFilePlayer7processEv,%function
-_ZN14MonoFilePlayer7processEv:          @ @_ZN14MonoFilePlayer7processEv
+	.type	_ZN14GrainGenerator7processEv,%function
+_ZN14GrainGenerator7processEv:          @ @_ZN14GrainGenerator7processEv
 .Lfunc_begin7:
-	.loc	1 87 0                  @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:87:0
+	.loc	1 88 0                  @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:88:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
@@ -582,10 +582,10 @@ _ZN14MonoFilePlayer7processEv:          @ @_ZN14MonoFilePlayer7processEv
 	mov	r4, r0
 .Ltmp84:
 	@DEBUG_VALUE: process:this <- %R4
-	.loc	1 88 5 prologue_end     @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:88:5
+	.loc	1 89 5 prologue_end     @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:89:5
 	ldrb	r0, [r4, #48]
 .Ltmp85:
-	.loc	1 88 5 is_stmt 0        @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:88:5
+	.loc	1 89 5 is_stmt 0        @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:89:5
 	cmp	r0, #0
 	beq	.LBB7_2
 .Ltmp86:
@@ -596,127 +596,127 @@ _ZN14MonoFilePlayer7processEv:          @ @_ZN14MonoFilePlayer7processEv
 .Ltmp87:
 .LBB7_2:
 	@DEBUG_VALUE: process:this <- %R4
-	.loc	1 97 30 is_stmt 1       @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:97:30
+	.loc	1 98 30 is_stmt 1       @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:98:30
 	ldr	r5, [r4, #40]
-	.loc	1 93 18                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:93:18
+	.loc	1 94 18                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:94:18
 	ldr	r0, [r4, #24]
-	.loc	1 93 28 is_stmt 0       @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:93:28
+	.loc	1 94 28 is_stmt 0       @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:94:28
 	ldr	r1, [r4, #32]
-	.loc	1 97 30 is_stmt 1       @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:97:30
+	.loc	1 98 30 is_stmt 1       @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:98:30
 	vmov	s20, r5
-	.loc	1 91 31                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:91:31
+	.loc	1 92 31                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:92:31
 	vldr	s0, [r4, #16]
 .Ltmp88:
 	@DEBUG_VALUE: process:samp_increment <- %S0
-	.loc	1 97 30                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:97:30
+	.loc	1 98 30                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:98:30
 	vcvt.f32.s32	d16, d10
-	.loc	1 93 26                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:93:26
+	.loc	1 94 26                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:94:26
 	add	r0, r1, r0
 .Ltmp89:
 	@DEBUG_VALUE: process:p_l <- %R0
-	.loc	1 97 28                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:97:28
+	.loc	1 98 28                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:98:28
 	vmul.f32	d16, d16, d0
-	.loc	1 94 12                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:94:12
+	.loc	1 95 12                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:95:12
 	vmov	s0, r0
 .Ltmp90:
 	@DEBUG_VALUE: process:p_l <- %S0
 	vcvt.f32.s32	d17, d0
-	.loc	1 97 47                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:97:47
+	.loc	1 98 47                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:98:47
 	vadd.f32	d8, d16, d17
 .Ltmp91:
 	@DEBUG_VALUE: process:y <- %S16
-	.loc	1 100 18 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:100:18
+	.loc	1 101 18 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:101:18
 	vmov.f32	s0, s16
 .Ltmp92:
 	bl	floorf
-	.loc	1 107 49                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:49
+	.loc	1 108 49                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:49
 	vcvt.f64.s32	d16, s20
-	.loc	1 107 66 is_stmt 0      @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:66
+	.loc	1 108 66 is_stmt 0      @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:66
 	ldr	r6, [r4, #20]
-	.loc	1 107 48                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:48
+	.loc	1 108 48                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:48
 	vldr	d17, .LCPI7_0
-	.loc	1 100 18 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:100:18
+	.loc	1 101 18 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:101:18
 	vmov.f64	d9, d0
-	.loc	1 107 48                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:48
+	.loc	1 108 48                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:48
 	vmul.f64	d16, d16, d17
-	.loc	1 107 66 is_stmt 0      @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:66
+	.loc	1 108 66 is_stmt 0      @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:66
 	vmov	s0, r6
 	vcvt.f64.s32	d17, s0
-	.loc	1 107 65                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:65
+	.loc	1 108 65                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:65
 	vdiv.f64	d16, d16, d17
-	.loc	1 107 25                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:25
+	.loc	1 108 25                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:25
 	vcvt.f32.f64	s0, d16
-	.loc	1 107 20 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:107:20
+	.loc	1 108 20 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:108:20
 	bl	sinf
 .Ltmp93:
 	@DEBUG_VALUE: process:windowVal <- %S0
-	.loc	1 109 20 is_stmt 1      @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:109:20
+	.loc	1 110 20 is_stmt 1      @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:110:20
 	vcvt.f64.f32	d16, s0
 .Ltmp94:
 	.loc	9 781 32                @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:781:32
 	ldr	r0, [r4]
 .Ltmp95:
-	.loc	1 100 18                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:100:18
+	.loc	1 101 18                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:101:18
 	vcvt.s32.f32	d0, d9
 .Ltmp96:
-	.loc	1 109 12                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:109:12
+	.loc	1 110 12                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:110:12
 	vmov.f64	d17, #7.500000e-01
-	.loc	1 100 18                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:100:18
+	.loc	1 101 18                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:101:18
 	vmov	r1, s0
 .Ltmp97:
 	@DEBUG_VALUE: process:prev_samp <- %R1
 	@DEBUG_VALUE: operator[]:__n <- %R1
-	.loc	1 102 25                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:102:25
+	.loc	1 103 25                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:103:25
 	vcvt.f32.s32	d18, d0
-	.loc	1 109 12                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:109:12
+	.loc	1 110 12                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:110:12
 	vmul.f64	d16, d16, d17
-	.loc	1 102 23                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:102:23
+	.loc	1 103 23                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:103:23
 	vsub.f32	d18, d8, d18
-	.loc	1 103 23                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:103:23
+	.loc	1 104 23                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:104:23
 	vmov.f32	d17, #1.000000e+00
 	vsub.f32	d17, d17, d18
 .Ltmp98:
 	.loc	9 781 32                @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:781:32
 	add	r0, r0, r1, lsl #2
 .Ltmp99:
-	.loc	1 104 28                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:104:28
+	.loc	1 105 28                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:105:28
 	vldr	s0, [r0]
-	.loc	1 104 76 is_stmt 0      @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:104:76
+	.loc	1 105 76 is_stmt 0      @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:105:76
 	vldr	s2, [r0, #4]
 .Ltmp100:
 	@DEBUG_VALUE: process:frac_below <- undef
-	.loc	1 113 17 is_stmt 1      @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:113:17
+	.loc	1 114 17 is_stmt 1      @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:114:17
 	add	r0, r5, #1
-	.loc	1 104 26                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:104:26
+	.loc	1 105 26                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:105:26
 	vmul.f32	d18, d18, d0
 .Ltmp101:
 	@DEBUG_VALUE: process:frac_above <- undef
-	.loc	1 114 6                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:114:6
+	.loc	1 115 6                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:115:6
 	cmp	r0, r6
-	.loc	1 104 74                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:104:74
+	.loc	1 105 74                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:105:74
 	vmul.f32	d17, d17, d1
-	.loc	1 113 17                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:113:17
+	.loc	1 114 17                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:114:17
 	str	r0, [r4, #40]
 .Ltmp102:
-	.loc	1 115 11                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:115:11
+	.loc	1 116 11                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:116:11
 	movge	r0, #1
 	strbge	r0, [r4, #48]
 .Ltmp103:
-	.loc	1 104 60                @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:104:60
+	.loc	1 105 60                @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:105:60
 	vadd.f32	d0, d17, d18
 .Ltmp104:
 	@DEBUG_VALUE: process:out <- %S0
-	.loc	1 109 8                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:109:8
+	.loc	1 110 8                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:110:8
 	vcvt.f64.f32	d17, s0
-	.loc	1 109 18 is_stmt 0      @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:109:18
+	.loc	1 110 18 is_stmt 0      @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:110:18
 	vmul.f64	d16, d16, d17
-	.loc	1 109 8                 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:109:8
+	.loc	1 110 8                 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:110:8
 	vcvt.f32.f64	s0, d16
 .Ltmp105:
 	@DEBUG_VALUE: process:out <- %S0
 .LBB7_3:
 	@DEBUG_VALUE: process:this <- %R4
-	.loc	1 156 1 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_copy/GrainGenerator/GrainGenerator.cpp:156:1
+	.loc	1 121 1 is_stmt 1 discriminator 1 @ /root/Bela/projects/gran_git/GrainGenerator/GrainGenerator.cpp:121:1
                                         @ kill: %S0<def> %S0<kill> %D0<kill>
 	vpop	{d8, d9, d10}
 	pop	{r4, r5, r6, r10, r11, pc}
@@ -727,7 +727,7 @@ _ZN14MonoFilePlayer7processEv:          @ @_ZN14MonoFilePlayer7processEv
 	.long	1413754136              @ double 3.1415926535897931
 	.long	1074340347
 .Lfunc_end7:
-	.size	_ZN14MonoFilePlayer7processEv, .Lfunc_end7-_ZN14MonoFilePlayer7processEv
+	.size	_ZN14GrainGenerator7processEv, .Lfunc_end7-_ZN14GrainGenerator7processEv
 	.cfi_endproc
 	.fnend
 
@@ -743,1503 +743,1503 @@ gRand:
 .Linfo_string0:
 	.asciz	"clang version 3.9.1-9 (tags/RELEASE_391/rc2)" @ string offset=0
 .Linfo_string1:
-	.asciz	"/root/Bela/projects/gran_copy/build/GrainGenerator/GrainGenerator.cpp" @ string offset=45
+	.asciz	"/root/Bela/projects/gran_git/build/GrainGenerator/GrainGenerator.cpp" @ string offset=45
 .Linfo_string2:
-	.asciz	"/root/Bela"            @ string offset=115
+	.asciz	"/root/Bela"            @ string offset=114
 .Linfo_string3:
-	.asciz	"gRand"                 @ string offset=126
+	.asciz	"gRand"                 @ string offset=125
 .Linfo_string4:
-	.asciz	"int"                   @ string offset=132
+	.asciz	"int"                   @ string offset=131
 .Linfo_string5:
-	.asciz	"__gnu_cxx"             @ string offset=136
+	.asciz	"__gnu_cxx"             @ string offset=135
 .Linfo_string6:
-	.asciz	"_S_single"             @ string offset=146
+	.asciz	"_S_single"             @ string offset=145
 .Linfo_string7:
-	.asciz	"_S_mutex"              @ string offset=156
+	.asciz	"_S_mutex"              @ string offset=155
 .Linfo_string8:
-	.asciz	"_S_atomic"             @ string offset=165
+	.asciz	"_S_atomic"             @ string offset=164
 .Linfo_string9:
-	.asciz	"_Lock_policy"          @ string offset=175
+	.asciz	"_Lock_policy"          @ string offset=174
 .Linfo_string10:
-	.asciz	"std"                   @ string offset=188
+	.asciz	"std"                   @ string offset=187
 .Linfo_string11:
-	.asciz	"_M_impl"               @ string offset=192
+	.asciz	"_M_impl"               @ string offset=191
 .Linfo_string12:
-	.asciz	"_ZNSt16allocator_traitsISaIfEE8allocateERS0_j" @ string offset=200
+	.asciz	"_ZNSt16allocator_traitsISaIfEE8allocateERS0_j" @ string offset=199
 .Linfo_string13:
-	.asciz	"allocate"              @ string offset=246
+	.asciz	"allocate"              @ string offset=245
 .Linfo_string14:
-	.asciz	"float"                 @ string offset=255
+	.asciz	"float"                 @ string offset=254
 .Linfo_string15:
-	.asciz	"pointer"               @ string offset=261
+	.asciz	"pointer"               @ string offset=260
 .Linfo_string16:
-	.asciz	"new_allocator"         @ string offset=269
+	.asciz	"new_allocator"         @ string offset=268
 .Linfo_string17:
-	.asciz	"~new_allocator"        @ string offset=283
+	.asciz	"~new_allocator"        @ string offset=282
 .Linfo_string18:
-	.asciz	"_ZNK9__gnu_cxx13new_allocatorIfE7addressERf" @ string offset=298
+	.asciz	"_ZNK9__gnu_cxx13new_allocatorIfE7addressERf" @ string offset=297
 .Linfo_string19:
-	.asciz	"address"               @ string offset=342
+	.asciz	"address"               @ string offset=341
 .Linfo_string20:
-	.asciz	"reference"             @ string offset=350
+	.asciz	"reference"             @ string offset=349
 .Linfo_string21:
-	.asciz	"_ZNK9__gnu_cxx13new_allocatorIfE7addressERKf" @ string offset=360
+	.asciz	"_ZNK9__gnu_cxx13new_allocatorIfE7addressERKf" @ string offset=359
 .Linfo_string22:
-	.asciz	"const_pointer"         @ string offset=405
+	.asciz	"const_pointer"         @ string offset=404
 .Linfo_string23:
-	.asciz	"const_reference"       @ string offset=419
+	.asciz	"const_reference"       @ string offset=418
 .Linfo_string24:
-	.asciz	"_ZN9__gnu_cxx13new_allocatorIfE8allocateEjPKv" @ string offset=435
+	.asciz	"_ZN9__gnu_cxx13new_allocatorIfE8allocateEjPKv" @ string offset=434
 .Linfo_string25:
-	.asciz	"unsigned int"          @ string offset=481
+	.asciz	"unsigned int"          @ string offset=480
 .Linfo_string26:
-	.asciz	"size_t"                @ string offset=494
+	.asciz	"size_t"                @ string offset=493
 .Linfo_string27:
-	.asciz	"size_type"             @ string offset=501
+	.asciz	"size_type"             @ string offset=500
 .Linfo_string28:
-	.asciz	"_ZN9__gnu_cxx13new_allocatorIfE10deallocateEPfj" @ string offset=511
+	.asciz	"_ZN9__gnu_cxx13new_allocatorIfE10deallocateEPfj" @ string offset=510
 .Linfo_string29:
-	.asciz	"deallocate"            @ string offset=559
+	.asciz	"deallocate"            @ string offset=558
 .Linfo_string30:
-	.asciz	"_ZNK9__gnu_cxx13new_allocatorIfE8max_sizeEv" @ string offset=570
+	.asciz	"_ZNK9__gnu_cxx13new_allocatorIfE8max_sizeEv" @ string offset=569
 .Linfo_string31:
-	.asciz	"max_size"              @ string offset=614
+	.asciz	"max_size"              @ string offset=613
 .Linfo_string32:
-	.asciz	"_Tp"                   @ string offset=623
+	.asciz	"_Tp"                   @ string offset=622
 .Linfo_string33:
-	.asciz	"new_allocator<float>"  @ string offset=627
+	.asciz	"new_allocator<float>"  @ string offset=626
 .Linfo_string34:
-	.asciz	"__allocator_base<float>" @ string offset=648
+	.asciz	"__allocator_base<float>" @ string offset=647
 .Linfo_string35:
-	.asciz	"allocator"             @ string offset=672
+	.asciz	"allocator"             @ string offset=671
 .Linfo_string36:
-	.asciz	"~allocator"            @ string offset=682
+	.asciz	"~allocator"            @ string offset=681
 .Linfo_string37:
-	.asciz	"allocator<float>"      @ string offset=693
+	.asciz	"allocator<float>"      @ string offset=692
 .Linfo_string38:
-	.asciz	"allocator_type"        @ string offset=710
+	.asciz	"allocator_type"        @ string offset=709
 .Linfo_string39:
-	.asciz	"_ZNSt16allocator_traitsISaIfEE8allocateERS0_jPKv" @ string offset=725
+	.asciz	"_ZNSt16allocator_traitsISaIfEE8allocateERS0_jPKv" @ string offset=724
 .Linfo_string40:
-	.asciz	"const_void_pointer"    @ string offset=774
+	.asciz	"const_void_pointer"    @ string offset=773
 .Linfo_string41:
-	.asciz	"_ZNSt16allocator_traitsISaIfEE10deallocateERS0_Pfj" @ string offset=793
+	.asciz	"_ZNSt16allocator_traitsISaIfEE10deallocateERS0_Pfj" @ string offset=792
 .Linfo_string42:
-	.asciz	"_ZNSt16allocator_traitsISaIfEE8max_sizeERKS0_" @ string offset=844
+	.asciz	"_ZNSt16allocator_traitsISaIfEE8max_sizeERKS0_" @ string offset=843
 .Linfo_string43:
-	.asciz	"_ZNSt16allocator_traitsISaIfEE37select_on_container_copy_constructionERKS0_" @ string offset=890
+	.asciz	"_ZNSt16allocator_traitsISaIfEE37select_on_container_copy_constructionERKS0_" @ string offset=889
 .Linfo_string44:
-	.asciz	"select_on_container_copy_construction" @ string offset=966
+	.asciz	"select_on_container_copy_construction" @ string offset=965
 .Linfo_string45:
-	.asciz	"_Alloc"                @ string offset=1004
+	.asciz	"_Alloc"                @ string offset=1003
 .Linfo_string46:
-	.asciz	"allocator_traits<std::allocator<float> >" @ string offset=1011
+	.asciz	"allocator_traits<std::allocator<float> >" @ string offset=1010
 .Linfo_string47:
-	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE17_S_select_on_copyERKS1_" @ string offset=1052
+	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE17_S_select_on_copyERKS1_" @ string offset=1051
 .Linfo_string48:
-	.asciz	"_S_select_on_copy"     @ string offset=1114
+	.asciz	"_S_select_on_copy"     @ string offset=1113
 .Linfo_string49:
-	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE10_S_on_swapERS1_S3_" @ string offset=1132
+	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE10_S_on_swapERS1_S3_" @ string offset=1131
 .Linfo_string50:
-	.asciz	"_S_on_swap"            @ string offset=1189
+	.asciz	"_S_on_swap"            @ string offset=1188
 .Linfo_string51:
-	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE27_S_propagate_on_copy_assignEv" @ string offset=1200
+	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE27_S_propagate_on_copy_assignEv" @ string offset=1199
 .Linfo_string52:
-	.asciz	"_S_propagate_on_copy_assign" @ string offset=1268
+	.asciz	"_S_propagate_on_copy_assign" @ string offset=1267
 .Linfo_string53:
-	.asciz	"bool"                  @ string offset=1296
+	.asciz	"bool"                  @ string offset=1295
 .Linfo_string54:
-	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE27_S_propagate_on_move_assignEv" @ string offset=1301
+	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE27_S_propagate_on_move_assignEv" @ string offset=1300
 .Linfo_string55:
-	.asciz	"_S_propagate_on_move_assign" @ string offset=1369
+	.asciz	"_S_propagate_on_move_assign" @ string offset=1368
 .Linfo_string56:
-	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE20_S_propagate_on_swapEv" @ string offset=1397
+	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE20_S_propagate_on_swapEv" @ string offset=1396
 .Linfo_string57:
-	.asciz	"_S_propagate_on_swap"  @ string offset=1458
+	.asciz	"_S_propagate_on_swap"  @ string offset=1457
 .Linfo_string58:
-	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE15_S_always_equalEv" @ string offset=1479
+	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE15_S_always_equalEv" @ string offset=1478
 .Linfo_string59:
-	.asciz	"_S_always_equal"       @ string offset=1535
+	.asciz	"_S_always_equal"       @ string offset=1534
 .Linfo_string60:
-	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE15_S_nothrow_moveEv" @ string offset=1551
+	.asciz	"_ZN9__gnu_cxx14__alloc_traitsISaIfEE15_S_nothrow_moveEv" @ string offset=1550
 .Linfo_string61:
-	.asciz	"_S_nothrow_move"       @ string offset=1607
+	.asciz	"_S_nothrow_move"       @ string offset=1606
 .Linfo_string62:
-	.asciz	"__alloc_traits<std::allocator<float> >" @ string offset=1623
+	.asciz	"__alloc_traits<std::allocator<float> >" @ string offset=1622
 .Linfo_string63:
-	.asciz	"rebind<float>"         @ string offset=1662
+	.asciz	"rebind<float>"         @ string offset=1661
 .Linfo_string64:
-	.asciz	"rebind_alloc<float>"   @ string offset=1676
+	.asciz	"rebind_alloc<float>"   @ string offset=1675
 .Linfo_string65:
-	.asciz	"other"                 @ string offset=1696
+	.asciz	"other"                 @ string offset=1695
 .Linfo_string66:
-	.asciz	"_Tp_alloc_type"        @ string offset=1702
+	.asciz	"_Tp_alloc_type"        @ string offset=1701
 .Linfo_string67:
-	.asciz	"_M_start"              @ string offset=1717
+	.asciz	"_M_start"              @ string offset=1716
 .Linfo_string68:
-	.asciz	"_M_finish"             @ string offset=1726
+	.asciz	"_M_finish"             @ string offset=1725
 .Linfo_string69:
-	.asciz	"_M_end_of_storage"     @ string offset=1736
+	.asciz	"_M_end_of_storage"     @ string offset=1735
 .Linfo_string70:
-	.asciz	"_Vector_impl"          @ string offset=1754
+	.asciz	"_Vector_impl"          @ string offset=1753
 .Linfo_string71:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEE12_Vector_impl12_M_swap_dataERS2_" @ string offset=1767
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEE12_Vector_impl12_M_swap_dataERS2_" @ string offset=1766
 .Linfo_string72:
-	.asciz	"_M_swap_data"          @ string offset=1828
+	.asciz	"_M_swap_data"          @ string offset=1827
 .Linfo_string73:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEE19_M_get_Tp_allocatorEv" @ string offset=1841
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEE19_M_get_Tp_allocatorEv" @ string offset=1840
 .Linfo_string74:
-	.asciz	"_M_get_Tp_allocator"   @ string offset=1892
+	.asciz	"_M_get_Tp_allocator"   @ string offset=1891
 .Linfo_string75:
-	.asciz	"_ZNKSt12_Vector_baseIfSaIfEE19_M_get_Tp_allocatorEv" @ string offset=1912
+	.asciz	"_ZNKSt12_Vector_baseIfSaIfEE19_M_get_Tp_allocatorEv" @ string offset=1911
 .Linfo_string76:
-	.asciz	"_ZNKSt12_Vector_baseIfSaIfEE13get_allocatorEv" @ string offset=1964
+	.asciz	"_ZNKSt12_Vector_baseIfSaIfEE13get_allocatorEv" @ string offset=1963
 .Linfo_string77:
-	.asciz	"get_allocator"         @ string offset=2010
+	.asciz	"get_allocator"         @ string offset=2009
 .Linfo_string78:
-	.asciz	"_Vector_base"          @ string offset=2024
+	.asciz	"_Vector_base"          @ string offset=2023
 .Linfo_string79:
-	.asciz	"~_Vector_base"         @ string offset=2037
+	.asciz	"~_Vector_base"         @ string offset=2036
 .Linfo_string80:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEE11_M_allocateEj" @ string offset=2051
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEE11_M_allocateEj" @ string offset=2050
 .Linfo_string81:
-	.asciz	"_M_allocate"           @ string offset=2094
+	.asciz	"_M_allocate"           @ string offset=2093
 .Linfo_string82:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEE13_M_deallocateEPfj" @ string offset=2106
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEE13_M_deallocateEPfj" @ string offset=2105
 .Linfo_string83:
-	.asciz	"_M_deallocate"         @ string offset=2153
+	.asciz	"_M_deallocate"         @ string offset=2152
 .Linfo_string84:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEE17_M_create_storageEj" @ string offset=2167
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEE17_M_create_storageEj" @ string offset=2166
 .Linfo_string85:
-	.asciz	"_M_create_storage"     @ string offset=2216
+	.asciz	"_M_create_storage"     @ string offset=2215
 .Linfo_string86:
-	.asciz	"_Vector_base<float, std::allocator<float> >" @ string offset=2234
+	.asciz	"_Vector_base<float, std::allocator<float> >" @ string offset=2233
 .Linfo_string87:
-	.asciz	"vector"                @ string offset=2278
+	.asciz	"vector"                @ string offset=2277
 .Linfo_string88:
-	.asciz	"value_type"            @ string offset=2285
+	.asciz	"value_type"            @ string offset=2284
 .Linfo_string89:
-	.asciz	"initializer_list<float>" @ string offset=2296
+	.asciz	"initializer_list<float>" @ string offset=2295
 .Linfo_string90:
-	.asciz	"~vector"               @ string offset=2320
+	.asciz	"~vector"               @ string offset=2319
 .Linfo_string91:
-	.asciz	"_ZNSt6vectorIfSaIfEEaSERKS1_" @ string offset=2328
+	.asciz	"_ZNSt6vectorIfSaIfEEaSERKS1_" @ string offset=2327
 .Linfo_string92:
-	.asciz	"operator="             @ string offset=2357
+	.asciz	"operator="             @ string offset=2356
 .Linfo_string93:
-	.asciz	"_ZNSt6vectorIfSaIfEEaSEOS1_" @ string offset=2367
+	.asciz	"_ZNSt6vectorIfSaIfEEaSEOS1_" @ string offset=2366
 .Linfo_string94:
-	.asciz	"_ZNSt6vectorIfSaIfEEaSESt16initializer_listIfE" @ string offset=2395
+	.asciz	"_ZNSt6vectorIfSaIfEEaSESt16initializer_listIfE" @ string offset=2394
 .Linfo_string95:
-	.asciz	"_ZNSt6vectorIfSaIfEE6assignEjRKf" @ string offset=2442
+	.asciz	"_ZNSt6vectorIfSaIfEE6assignEjRKf" @ string offset=2441
 .Linfo_string96:
-	.asciz	"assign"                @ string offset=2475
+	.asciz	"assign"                @ string offset=2474
 .Linfo_string97:
-	.asciz	"_ZNSt6vectorIfSaIfEE6assignESt16initializer_listIfE" @ string offset=2482
+	.asciz	"_ZNSt6vectorIfSaIfEE6assignESt16initializer_listIfE" @ string offset=2481
 .Linfo_string98:
-	.asciz	"_ZNSt6vectorIfSaIfEE5beginEv" @ string offset=2534
+	.asciz	"_ZNSt6vectorIfSaIfEE5beginEv" @ string offset=2533
 .Linfo_string99:
-	.asciz	"begin"                 @ string offset=2563
+	.asciz	"begin"                 @ string offset=2562
 .Linfo_string100:
-	.asciz	"__normal_iterator<float *, std::vector<float, std::allocator<float> > >" @ string offset=2569
+	.asciz	"__normal_iterator<float *, std::vector<float, std::allocator<float> > >" @ string offset=2568
 .Linfo_string101:
-	.asciz	"iterator"              @ string offset=2641
+	.asciz	"iterator"              @ string offset=2640
 .Linfo_string102:
-	.asciz	"_ZNKSt6vectorIfSaIfEE5beginEv" @ string offset=2650
+	.asciz	"_ZNKSt6vectorIfSaIfEE5beginEv" @ string offset=2649
 .Linfo_string103:
-	.asciz	"_M_current"            @ string offset=2680
+	.asciz	"_M_current"            @ string offset=2679
 .Linfo_string104:
-	.asciz	"__normal_iterator"     @ string offset=2691
+	.asciz	"__normal_iterator"     @ string offset=2690
 .Linfo_string105:
-	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEdeEv" @ string offset=2709
+	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEdeEv" @ string offset=2708
 .Linfo_string106:
-	.asciz	"operator*"             @ string offset=2769
+	.asciz	"operator*"             @ string offset=2768
 .Linfo_string107:
-	.asciz	"_Iterator"             @ string offset=2779
+	.asciz	"_Iterator"             @ string offset=2778
 .Linfo_string108:
-	.asciz	"iterator_traits<const float *>" @ string offset=2789
+	.asciz	"iterator_traits<const float *>" @ string offset=2788
 .Linfo_string109:
-	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEptEv" @ string offset=2820
+	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEptEv" @ string offset=2819
 .Linfo_string110:
-	.asciz	"operator->"            @ string offset=2880
+	.asciz	"operator->"            @ string offset=2879
 .Linfo_string111:
-	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEppEv" @ string offset=2891
+	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEppEv" @ string offset=2890
 .Linfo_string112:
-	.asciz	"operator++"            @ string offset=2950
+	.asciz	"operator++"            @ string offset=2949
 .Linfo_string113:
-	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEppEi" @ string offset=2961
+	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEppEi" @ string offset=2960
 .Linfo_string114:
-	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmmEv" @ string offset=3020
+	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmmEv" @ string offset=3019
 .Linfo_string115:
-	.asciz	"operator--"            @ string offset=3079
+	.asciz	"operator--"            @ string offset=3078
 .Linfo_string116:
-	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmmEi" @ string offset=3090
+	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmmEi" @ string offset=3089
 .Linfo_string117:
-	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEixEi" @ string offset=3149
+	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEixEi" @ string offset=3148
 .Linfo_string118:
-	.asciz	"operator[]"            @ string offset=3209
+	.asciz	"operator[]"            @ string offset=3208
 .Linfo_string119:
-	.asciz	"ptrdiff_t"             @ string offset=3220
+	.asciz	"ptrdiff_t"             @ string offset=3219
 .Linfo_string120:
-	.asciz	"difference_type"       @ string offset=3230
+	.asciz	"difference_type"       @ string offset=3229
 .Linfo_string121:
-	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEpLEi" @ string offset=3246
+	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEpLEi" @ string offset=3245
 .Linfo_string122:
-	.asciz	"operator+="            @ string offset=3305
+	.asciz	"operator+="            @ string offset=3304
 .Linfo_string123:
-	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEplEi" @ string offset=3316
+	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEplEi" @ string offset=3315
 .Linfo_string124:
-	.asciz	"operator+"             @ string offset=3376
+	.asciz	"operator+"             @ string offset=3375
 .Linfo_string125:
-	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmIEi" @ string offset=3386
+	.asciz	"_ZN9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmIEi" @ string offset=3385
 .Linfo_string126:
-	.asciz	"operator-="            @ string offset=3445
+	.asciz	"operator-="            @ string offset=3444
 .Linfo_string127:
-	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmiEi" @ string offset=3456
+	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEEmiEi" @ string offset=3455
 .Linfo_string128:
-	.asciz	"operator-"             @ string offset=3516
+	.asciz	"operator-"             @ string offset=3515
 .Linfo_string129:
-	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEE4baseEv" @ string offset=3526
+	.asciz	"_ZNK9__gnu_cxx17__normal_iteratorIPKfSt6vectorIfSaIfEEE4baseEv" @ string offset=3525
 .Linfo_string130:
-	.asciz	"base"                  @ string offset=3589
+	.asciz	"base"                  @ string offset=3588
 .Linfo_string131:
-	.asciz	"_Container"            @ string offset=3594
+	.asciz	"_Container"            @ string offset=3593
 .Linfo_string132:
-	.asciz	"__normal_iterator<const float *, std::vector<float, std::allocator<float> > >" @ string offset=3605
+	.asciz	"__normal_iterator<const float *, std::vector<float, std::allocator<float> > >" @ string offset=3604
 .Linfo_string133:
-	.asciz	"const_iterator"        @ string offset=3683
+	.asciz	"const_iterator"        @ string offset=3682
 .Linfo_string134:
-	.asciz	"_ZNSt6vectorIfSaIfEE3endEv" @ string offset=3698
+	.asciz	"_ZNSt6vectorIfSaIfEE3endEv" @ string offset=3697
 .Linfo_string135:
-	.asciz	"end"                   @ string offset=3725
+	.asciz	"end"                   @ string offset=3724
 .Linfo_string136:
-	.asciz	"_ZNKSt6vectorIfSaIfEE3endEv" @ string offset=3729
+	.asciz	"_ZNKSt6vectorIfSaIfEE3endEv" @ string offset=3728
 .Linfo_string137:
-	.asciz	"_ZNSt6vectorIfSaIfEE6rbeginEv" @ string offset=3757
+	.asciz	"_ZNSt6vectorIfSaIfEE6rbeginEv" @ string offset=3756
 .Linfo_string138:
-	.asciz	"rbegin"                @ string offset=3787
+	.asciz	"rbegin"                @ string offset=3786
 .Linfo_string139:
-	.asciz	"reverse_iterator<__gnu_cxx::__normal_iterator<float *, std::vector<float, std::allocator<float> > > >" @ string offset=3794
+	.asciz	"reverse_iterator<__gnu_cxx::__normal_iterator<float *, std::vector<float, std::allocator<float> > > >" @ string offset=3793
 .Linfo_string140:
-	.asciz	"reverse_iterator"      @ string offset=3896
+	.asciz	"reverse_iterator"      @ string offset=3895
 .Linfo_string141:
-	.asciz	"_ZNKSt6vectorIfSaIfEE6rbeginEv" @ string offset=3913
+	.asciz	"_ZNKSt6vectorIfSaIfEE6rbeginEv" @ string offset=3912
 .Linfo_string142:
-	.asciz	"reverse_iterator<__gnu_cxx::__normal_iterator<const float *, std::vector<float, std::allocator<float> > > >" @ string offset=3944
+	.asciz	"reverse_iterator<__gnu_cxx::__normal_iterator<const float *, std::vector<float, std::allocator<float> > > >" @ string offset=3943
 .Linfo_string143:
-	.asciz	"const_reverse_iterator" @ string offset=4052
+	.asciz	"const_reverse_iterator" @ string offset=4051
 .Linfo_string144:
-	.asciz	"_ZNSt6vectorIfSaIfEE4rendEv" @ string offset=4075
+	.asciz	"_ZNSt6vectorIfSaIfEE4rendEv" @ string offset=4074
 .Linfo_string145:
-	.asciz	"rend"                  @ string offset=4103
+	.asciz	"rend"                  @ string offset=4102
 .Linfo_string146:
-	.asciz	"_ZNKSt6vectorIfSaIfEE4rendEv" @ string offset=4108
+	.asciz	"_ZNKSt6vectorIfSaIfEE4rendEv" @ string offset=4107
 .Linfo_string147:
-	.asciz	"_ZNKSt6vectorIfSaIfEE6cbeginEv" @ string offset=4137
+	.asciz	"_ZNKSt6vectorIfSaIfEE6cbeginEv" @ string offset=4136
 .Linfo_string148:
-	.asciz	"cbegin"                @ string offset=4168
+	.asciz	"cbegin"                @ string offset=4167
 .Linfo_string149:
-	.asciz	"_ZNKSt6vectorIfSaIfEE4cendEv" @ string offset=4175
+	.asciz	"_ZNKSt6vectorIfSaIfEE4cendEv" @ string offset=4174
 .Linfo_string150:
-	.asciz	"cend"                  @ string offset=4204
+	.asciz	"cend"                  @ string offset=4203
 .Linfo_string151:
-	.asciz	"_ZNKSt6vectorIfSaIfEE7crbeginEv" @ string offset=4209
+	.asciz	"_ZNKSt6vectorIfSaIfEE7crbeginEv" @ string offset=4208
 .Linfo_string152:
-	.asciz	"crbegin"               @ string offset=4241
+	.asciz	"crbegin"               @ string offset=4240
 .Linfo_string153:
-	.asciz	"_ZNKSt6vectorIfSaIfEE5crendEv" @ string offset=4249
+	.asciz	"_ZNKSt6vectorIfSaIfEE5crendEv" @ string offset=4248
 .Linfo_string154:
-	.asciz	"crend"                 @ string offset=4279
+	.asciz	"crend"                 @ string offset=4278
 .Linfo_string155:
-	.asciz	"_ZNKSt6vectorIfSaIfEE4sizeEv" @ string offset=4285
+	.asciz	"_ZNKSt6vectorIfSaIfEE4sizeEv" @ string offset=4284
 .Linfo_string156:
-	.asciz	"size"                  @ string offset=4314
+	.asciz	"size"                  @ string offset=4313
 .Linfo_string157:
-	.asciz	"_ZNKSt6vectorIfSaIfEE8max_sizeEv" @ string offset=4319
+	.asciz	"_ZNKSt6vectorIfSaIfEE8max_sizeEv" @ string offset=4318
 .Linfo_string158:
-	.asciz	"_ZNSt6vectorIfSaIfEE6resizeEj" @ string offset=4352
+	.asciz	"_ZNSt6vectorIfSaIfEE6resizeEj" @ string offset=4351
 .Linfo_string159:
-	.asciz	"resize"                @ string offset=4382
+	.asciz	"resize"                @ string offset=4381
 .Linfo_string160:
-	.asciz	"_ZNSt6vectorIfSaIfEE6resizeEjRKf" @ string offset=4389
+	.asciz	"_ZNSt6vectorIfSaIfEE6resizeEjRKf" @ string offset=4388
 .Linfo_string161:
-	.asciz	"_ZNSt6vectorIfSaIfEE13shrink_to_fitEv" @ string offset=4422
+	.asciz	"_ZNSt6vectorIfSaIfEE13shrink_to_fitEv" @ string offset=4421
 .Linfo_string162:
-	.asciz	"shrink_to_fit"         @ string offset=4460
+	.asciz	"shrink_to_fit"         @ string offset=4459
 .Linfo_string163:
-	.asciz	"_ZNKSt6vectorIfSaIfEE8capacityEv" @ string offset=4474
+	.asciz	"_ZNKSt6vectorIfSaIfEE8capacityEv" @ string offset=4473
 .Linfo_string164:
-	.asciz	"capacity"              @ string offset=4507
+	.asciz	"capacity"              @ string offset=4506
 .Linfo_string165:
-	.asciz	"_ZNKSt6vectorIfSaIfEE5emptyEv" @ string offset=4516
+	.asciz	"_ZNKSt6vectorIfSaIfEE5emptyEv" @ string offset=4515
 .Linfo_string166:
-	.asciz	"empty"                 @ string offset=4546
+	.asciz	"empty"                 @ string offset=4545
 .Linfo_string167:
-	.asciz	"_ZNSt6vectorIfSaIfEE7reserveEj" @ string offset=4552
+	.asciz	"_ZNSt6vectorIfSaIfEE7reserveEj" @ string offset=4551
 .Linfo_string168:
-	.asciz	"reserve"               @ string offset=4583
+	.asciz	"reserve"               @ string offset=4582
 .Linfo_string169:
-	.asciz	"_ZNSt6vectorIfSaIfEEixEj" @ string offset=4591
+	.asciz	"_ZNSt6vectorIfSaIfEEixEj" @ string offset=4590
 .Linfo_string170:
-	.asciz	"_ZNKSt6vectorIfSaIfEEixEj" @ string offset=4616
+	.asciz	"_ZNKSt6vectorIfSaIfEEixEj" @ string offset=4615
 .Linfo_string171:
-	.asciz	"_ZNKSt6vectorIfSaIfEE14_M_range_checkEj" @ string offset=4642
+	.asciz	"_ZNKSt6vectorIfSaIfEE14_M_range_checkEj" @ string offset=4641
 .Linfo_string172:
-	.asciz	"_M_range_check"        @ string offset=4682
+	.asciz	"_M_range_check"        @ string offset=4681
 .Linfo_string173:
-	.asciz	"_ZNSt6vectorIfSaIfEE2atEj" @ string offset=4697
+	.asciz	"_ZNSt6vectorIfSaIfEE2atEj" @ string offset=4696
 .Linfo_string174:
-	.asciz	"at"                    @ string offset=4723
+	.asciz	"at"                    @ string offset=4722
 .Linfo_string175:
-	.asciz	"_ZNKSt6vectorIfSaIfEE2atEj" @ string offset=4726
+	.asciz	"_ZNKSt6vectorIfSaIfEE2atEj" @ string offset=4725
 .Linfo_string176:
-	.asciz	"_ZNSt6vectorIfSaIfEE5frontEv" @ string offset=4753
+	.asciz	"_ZNSt6vectorIfSaIfEE5frontEv" @ string offset=4752
 .Linfo_string177:
-	.asciz	"front"                 @ string offset=4782
+	.asciz	"front"                 @ string offset=4781
 .Linfo_string178:
-	.asciz	"_ZNKSt6vectorIfSaIfEE5frontEv" @ string offset=4788
+	.asciz	"_ZNKSt6vectorIfSaIfEE5frontEv" @ string offset=4787
 .Linfo_string179:
-	.asciz	"_ZNSt6vectorIfSaIfEE4backEv" @ string offset=4818
+	.asciz	"_ZNSt6vectorIfSaIfEE4backEv" @ string offset=4817
 .Linfo_string180:
-	.asciz	"back"                  @ string offset=4846
+	.asciz	"back"                  @ string offset=4845
 .Linfo_string181:
-	.asciz	"_ZNKSt6vectorIfSaIfEE4backEv" @ string offset=4851
+	.asciz	"_ZNKSt6vectorIfSaIfEE4backEv" @ string offset=4850
 .Linfo_string182:
-	.asciz	"_ZNSt6vectorIfSaIfEE4dataEv" @ string offset=4880
+	.asciz	"_ZNSt6vectorIfSaIfEE4dataEv" @ string offset=4879
 .Linfo_string183:
-	.asciz	"data"                  @ string offset=4908
+	.asciz	"data"                  @ string offset=4907
 .Linfo_string184:
-	.asciz	"_ZNKSt6vectorIfSaIfEE4dataEv" @ string offset=4913
+	.asciz	"_ZNKSt6vectorIfSaIfEE4dataEv" @ string offset=4912
 .Linfo_string185:
-	.asciz	"_ZNSt6vectorIfSaIfEE9push_backERKf" @ string offset=4942
+	.asciz	"_ZNSt6vectorIfSaIfEE9push_backERKf" @ string offset=4941
 .Linfo_string186:
-	.asciz	"push_back"             @ string offset=4977
+	.asciz	"push_back"             @ string offset=4976
 .Linfo_string187:
-	.asciz	"_ZNSt6vectorIfSaIfEE9push_backEOf" @ string offset=4987
+	.asciz	"_ZNSt6vectorIfSaIfEE9push_backEOf" @ string offset=4986
 .Linfo_string188:
-	.asciz	"_ZNSt6vectorIfSaIfEE8pop_backEv" @ string offset=5021
+	.asciz	"_ZNSt6vectorIfSaIfEE8pop_backEv" @ string offset=5020
 .Linfo_string189:
-	.asciz	"pop_back"              @ string offset=5053
+	.asciz	"pop_back"              @ string offset=5052
 .Linfo_string190:
-	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EERS4_" @ string offset=5062
+	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EERS4_" @ string offset=5061
 .Linfo_string191:
-	.asciz	"insert"                @ string offset=5134
+	.asciz	"insert"                @ string offset=5133
 .Linfo_string192:
-	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EEOf" @ string offset=5141
+	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EEOf" @ string offset=5140
 .Linfo_string193:
-	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EESt16initializer_listIfE" @ string offset=5211
+	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EESt16initializer_listIfE" @ string offset=5210
 .Linfo_string194:
-	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EEjRS4_" @ string offset=5302
+	.asciz	"_ZNSt6vectorIfSaIfEE6insertEN9__gnu_cxx17__normal_iteratorIPKfS1_EEjRS4_" @ string offset=5301
 .Linfo_string195:
-	.asciz	"_ZNSt6vectorIfSaIfEE5eraseEN9__gnu_cxx17__normal_iteratorIPKfS1_EE" @ string offset=5375
+	.asciz	"_ZNSt6vectorIfSaIfEE5eraseEN9__gnu_cxx17__normal_iteratorIPKfS1_EE" @ string offset=5374
 .Linfo_string196:
-	.asciz	"erase"                 @ string offset=5442
+	.asciz	"erase"                 @ string offset=5441
 .Linfo_string197:
-	.asciz	"_ZNSt6vectorIfSaIfEE5eraseEN9__gnu_cxx17__normal_iteratorIPKfS1_EES6_" @ string offset=5448
+	.asciz	"_ZNSt6vectorIfSaIfEE5eraseEN9__gnu_cxx17__normal_iteratorIPKfS1_EES6_" @ string offset=5447
 .Linfo_string198:
-	.asciz	"_ZNSt6vectorIfSaIfEE4swapERS1_" @ string offset=5518
+	.asciz	"_ZNSt6vectorIfSaIfEE4swapERS1_" @ string offset=5517
 .Linfo_string199:
-	.asciz	"swap"                  @ string offset=5549
+	.asciz	"swap"                  @ string offset=5548
 .Linfo_string200:
-	.asciz	"_ZNSt6vectorIfSaIfEE5clearEv" @ string offset=5554
+	.asciz	"_ZNSt6vectorIfSaIfEE5clearEv" @ string offset=5553
 .Linfo_string201:
-	.asciz	"clear"                 @ string offset=5583
+	.asciz	"clear"                 @ string offset=5582
 .Linfo_string202:
-	.asciz	"_ZNSt6vectorIfSaIfEE18_M_fill_initializeEjRKf" @ string offset=5589
+	.asciz	"_ZNSt6vectorIfSaIfEE18_M_fill_initializeEjRKf" @ string offset=5588
 .Linfo_string203:
-	.asciz	"_M_fill_initialize"    @ string offset=5635
+	.asciz	"_M_fill_initialize"    @ string offset=5634
 .Linfo_string204:
-	.asciz	"_ZNSt6vectorIfSaIfEE21_M_default_initializeEj" @ string offset=5654
+	.asciz	"_ZNSt6vectorIfSaIfEE21_M_default_initializeEj" @ string offset=5653
 .Linfo_string205:
-	.asciz	"_M_default_initialize" @ string offset=5700
+	.asciz	"_M_default_initialize" @ string offset=5699
 .Linfo_string206:
-	.asciz	"_ZNSt6vectorIfSaIfEE14_M_fill_assignEjRKf" @ string offset=5722
+	.asciz	"_ZNSt6vectorIfSaIfEE14_M_fill_assignEjRKf" @ string offset=5721
 .Linfo_string207:
-	.asciz	"_M_fill_assign"        @ string offset=5764
+	.asciz	"_M_fill_assign"        @ string offset=5763
 .Linfo_string208:
-	.asciz	"_ZNSt6vectorIfSaIfEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPfS1_EEjRKf" @ string offset=5779
+	.asciz	"_ZNSt6vectorIfSaIfEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPfS1_EEjRKf" @ string offset=5778
 .Linfo_string209:
-	.asciz	"_M_fill_insert"        @ string offset=5859
+	.asciz	"_M_fill_insert"        @ string offset=5858
 .Linfo_string210:
-	.asciz	"_ZNSt6vectorIfSaIfEE17_M_default_appendEj" @ string offset=5874
+	.asciz	"_ZNSt6vectorIfSaIfEE17_M_default_appendEj" @ string offset=5873
 .Linfo_string211:
-	.asciz	"_M_default_append"     @ string offset=5916
+	.asciz	"_M_default_append"     @ string offset=5915
 .Linfo_string212:
-	.asciz	"_ZNSt6vectorIfSaIfEE16_M_shrink_to_fitEv" @ string offset=5934
+	.asciz	"_ZNSt6vectorIfSaIfEE16_M_shrink_to_fitEv" @ string offset=5933
 .Linfo_string213:
-	.asciz	"_M_shrink_to_fit"      @ string offset=5975
+	.asciz	"_M_shrink_to_fit"      @ string offset=5974
 .Linfo_string214:
-	.asciz	"_ZNKSt6vectorIfSaIfEE12_M_check_lenEjPKc" @ string offset=5992
+	.asciz	"_ZNKSt6vectorIfSaIfEE12_M_check_lenEjPKc" @ string offset=5991
 .Linfo_string215:
-	.asciz	"_M_check_len"          @ string offset=6033
+	.asciz	"_M_check_len"          @ string offset=6032
 .Linfo_string216:
-	.asciz	"char"                  @ string offset=6046
+	.asciz	"char"                  @ string offset=6045
 .Linfo_string217:
-	.asciz	"_ZNSt6vectorIfSaIfEE15_M_erase_at_endEPf" @ string offset=6051
+	.asciz	"_ZNSt6vectorIfSaIfEE15_M_erase_at_endEPf" @ string offset=6050
 .Linfo_string218:
-	.asciz	"_M_erase_at_end"       @ string offset=6092
+	.asciz	"_M_erase_at_end"       @ string offset=6091
 .Linfo_string219:
-	.asciz	"_ZNSt6vectorIfSaIfEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPfS1_EE" @ string offset=6108
+	.asciz	"_ZNSt6vectorIfSaIfEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPfS1_EE" @ string offset=6107
 .Linfo_string220:
-	.asciz	"_M_erase"              @ string offset=6177
+	.asciz	"_M_erase"              @ string offset=6176
 .Linfo_string221:
-	.asciz	"_ZNSt6vectorIfSaIfEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPfS1_EES5_" @ string offset=6186
+	.asciz	"_ZNSt6vectorIfSaIfEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPfS1_EES5_" @ string offset=6185
 .Linfo_string222:
-	.asciz	"_ZNSt6vectorIfSaIfEE14_M_move_assignEOS1_St17integral_constantIbLb1EE" @ string offset=6258
+	.asciz	"_ZNSt6vectorIfSaIfEE14_M_move_assignEOS1_St17integral_constantIbLb1EE" @ string offset=6257
 .Linfo_string223:
-	.asciz	"_M_move_assign"        @ string offset=6328
+	.asciz	"_M_move_assign"        @ string offset=6327
 .Linfo_string224:
-	.asciz	"value"                 @ string offset=6343
+	.asciz	"value"                 @ string offset=6342
 .Linfo_string225:
-	.asciz	"_ZNKSt17integral_constantIbLb1EEcvbEv" @ string offset=6349
+	.asciz	"_ZNKSt17integral_constantIbLb1EEcvbEv" @ string offset=6348
 .Linfo_string226:
-	.asciz	"operator bool"         @ string offset=6387
+	.asciz	"operator bool"         @ string offset=6386
 .Linfo_string227:
-	.asciz	"__v"                   @ string offset=6401
+	.asciz	"__v"                   @ string offset=6400
 .Linfo_string228:
-	.asciz	"integral_constant<bool, true>" @ string offset=6405
+	.asciz	"integral_constant<bool, true>" @ string offset=6404
 .Linfo_string229:
-	.asciz	"true_type"             @ string offset=6435
+	.asciz	"true_type"             @ string offset=6434
 .Linfo_string230:
-	.asciz	"_ZNSt6vectorIfSaIfEE14_M_move_assignEOS1_St17integral_constantIbLb0EE" @ string offset=6445
+	.asciz	"_ZNSt6vectorIfSaIfEE14_M_move_assignEOS1_St17integral_constantIbLb0EE" @ string offset=6444
 .Linfo_string231:
-	.asciz	"_ZNKSt17integral_constantIbLb0EEcvbEv" @ string offset=6515
+	.asciz	"_ZNKSt17integral_constantIbLb0EEcvbEv" @ string offset=6514
 .Linfo_string232:
-	.asciz	"integral_constant<bool, false>" @ string offset=6553
+	.asciz	"integral_constant<bool, false>" @ string offset=6552
 .Linfo_string233:
-	.asciz	"false_type"            @ string offset=6584
+	.asciz	"false_type"            @ string offset=6583
 .Linfo_string234:
-	.asciz	"vector<float, std::allocator<float> >" @ string offset=6595
+	.asciz	"vector<float, std::allocator<float> >" @ string offset=6594
 .Linfo_string235:
-	.asciz	"__gnu_debug"           @ string offset=6633
+	.asciz	"__gnu_debug"           @ string offset=6632
 .Linfo_string236:
-	.asciz	"__debug"               @ string offset=6645
+	.asciz	"__debug"               @ string offset=6644
 .Linfo_string237:
-	.asciz	"__count"               @ string offset=6653
+	.asciz	"__count"               @ string offset=6652
 .Linfo_string238:
-	.asciz	"__value"               @ string offset=6661
+	.asciz	"__value"               @ string offset=6660
 .Linfo_string239:
-	.asciz	"__wch"                 @ string offset=6669
+	.asciz	"__wch"                 @ string offset=6668
 .Linfo_string240:
-	.asciz	"__wchb"                @ string offset=6675
+	.asciz	"__wchb"                @ string offset=6674
 .Linfo_string241:
-	.asciz	"sizetype"              @ string offset=6682
+	.asciz	"sizetype"              @ string offset=6681
 .Linfo_string242:
-	.asciz	"__mbstate_t"           @ string offset=6691
+	.asciz	"__mbstate_t"           @ string offset=6690
 .Linfo_string243:
-	.asciz	"mbstate_t"             @ string offset=6703
+	.asciz	"mbstate_t"             @ string offset=6702
 .Linfo_string244:
-	.asciz	"wint_t"                @ string offset=6713
+	.asciz	"wint_t"                @ string offset=6712
 .Linfo_string245:
-	.asciz	"btowc"                 @ string offset=6720
+	.asciz	"btowc"                 @ string offset=6719
 .Linfo_string246:
-	.asciz	"fgetwc"                @ string offset=6726
+	.asciz	"fgetwc"                @ string offset=6725
 .Linfo_string247:
-	.asciz	"_flags"                @ string offset=6733
+	.asciz	"_flags"                @ string offset=6732
 .Linfo_string248:
-	.asciz	"_IO_read_ptr"          @ string offset=6740
+	.asciz	"_IO_read_ptr"          @ string offset=6739
 .Linfo_string249:
-	.asciz	"_IO_read_end"          @ string offset=6753
+	.asciz	"_IO_read_end"          @ string offset=6752
 .Linfo_string250:
-	.asciz	"_IO_read_base"         @ string offset=6766
+	.asciz	"_IO_read_base"         @ string offset=6765
 .Linfo_string251:
-	.asciz	"_IO_write_base"        @ string offset=6780
+	.asciz	"_IO_write_base"        @ string offset=6779
 .Linfo_string252:
-	.asciz	"_IO_write_ptr"         @ string offset=6795
+	.asciz	"_IO_write_ptr"         @ string offset=6794
 .Linfo_string253:
-	.asciz	"_IO_write_end"         @ string offset=6809
+	.asciz	"_IO_write_end"         @ string offset=6808
 .Linfo_string254:
-	.asciz	"_IO_buf_base"          @ string offset=6823
+	.asciz	"_IO_buf_base"          @ string offset=6822
 .Linfo_string255:
-	.asciz	"_IO_buf_end"           @ string offset=6836
+	.asciz	"_IO_buf_end"           @ string offset=6835
 .Linfo_string256:
-	.asciz	"_IO_save_base"         @ string offset=6848
+	.asciz	"_IO_save_base"         @ string offset=6847
 .Linfo_string257:
-	.asciz	"_IO_backup_base"       @ string offset=6862
+	.asciz	"_IO_backup_base"       @ string offset=6861
 .Linfo_string258:
-	.asciz	"_IO_save_end"          @ string offset=6878
+	.asciz	"_IO_save_end"          @ string offset=6877
 .Linfo_string259:
-	.asciz	"_markers"              @ string offset=6891
+	.asciz	"_markers"              @ string offset=6890
 .Linfo_string260:
-	.asciz	"_IO_marker"            @ string offset=6900
+	.asciz	"_IO_marker"            @ string offset=6899
 .Linfo_string261:
-	.asciz	"_chain"                @ string offset=6911
+	.asciz	"_chain"                @ string offset=6910
 .Linfo_string262:
-	.asciz	"_fileno"               @ string offset=6918
+	.asciz	"_fileno"               @ string offset=6917
 .Linfo_string263:
-	.asciz	"_flags2"               @ string offset=6926
+	.asciz	"_flags2"               @ string offset=6925
 .Linfo_string264:
-	.asciz	"_old_offset"           @ string offset=6934
+	.asciz	"_old_offset"           @ string offset=6933
 .Linfo_string265:
-	.asciz	"long int"              @ string offset=6946
+	.asciz	"long int"              @ string offset=6945
 .Linfo_string266:
-	.asciz	"__off_t"               @ string offset=6955
+	.asciz	"__off_t"               @ string offset=6954
 .Linfo_string267:
-	.asciz	"_cur_column"           @ string offset=6963
+	.asciz	"_cur_column"           @ string offset=6962
 .Linfo_string268:
-	.asciz	"unsigned short"        @ string offset=6975
+	.asciz	"unsigned short"        @ string offset=6974
 .Linfo_string269:
-	.asciz	"_vtable_offset"        @ string offset=6990
+	.asciz	"_vtable_offset"        @ string offset=6989
 .Linfo_string270:
-	.asciz	"signed char"           @ string offset=7005
+	.asciz	"signed char"           @ string offset=7004
 .Linfo_string271:
-	.asciz	"_shortbuf"             @ string offset=7017
+	.asciz	"_shortbuf"             @ string offset=7016
 .Linfo_string272:
-	.asciz	"_lock"                 @ string offset=7027
+	.asciz	"_lock"                 @ string offset=7026
 .Linfo_string273:
-	.asciz	"_IO_lock_t"            @ string offset=7033
+	.asciz	"_IO_lock_t"            @ string offset=7032
 .Linfo_string274:
-	.asciz	"_offset"               @ string offset=7044
+	.asciz	"_offset"               @ string offset=7043
 .Linfo_string275:
-	.asciz	"long long int"         @ string offset=7052
+	.asciz	"long long int"         @ string offset=7051
 .Linfo_string276:
-	.asciz	"__quad_t"              @ string offset=7066
+	.asciz	"__quad_t"              @ string offset=7065
 .Linfo_string277:
-	.asciz	"__off64_t"             @ string offset=7075
+	.asciz	"__off64_t"             @ string offset=7074
 .Linfo_string278:
-	.asciz	"__pad1"                @ string offset=7085
+	.asciz	"__pad1"                @ string offset=7084
 .Linfo_string279:
-	.asciz	"__pad2"                @ string offset=7092
+	.asciz	"__pad2"                @ string offset=7091
 .Linfo_string280:
-	.asciz	"__pad3"                @ string offset=7099
+	.asciz	"__pad3"                @ string offset=7098
 .Linfo_string281:
-	.asciz	"__pad4"                @ string offset=7106
+	.asciz	"__pad4"                @ string offset=7105
 .Linfo_string282:
-	.asciz	"__pad5"                @ string offset=7113
+	.asciz	"__pad5"                @ string offset=7112
 .Linfo_string283:
-	.asciz	"_mode"                 @ string offset=7120
+	.asciz	"_mode"                 @ string offset=7119
 .Linfo_string284:
-	.asciz	"_unused2"              @ string offset=7126
+	.asciz	"_unused2"              @ string offset=7125
 .Linfo_string285:
-	.asciz	"_IO_FILE"              @ string offset=7135
+	.asciz	"_IO_FILE"              @ string offset=7134
 .Linfo_string286:
-	.asciz	"__FILE"                @ string offset=7144
+	.asciz	"__FILE"                @ string offset=7143
 .Linfo_string287:
-	.asciz	"fgetws"                @ string offset=7151
+	.asciz	"fgetws"                @ string offset=7150
 .Linfo_string288:
-	.asciz	"wchar_t"               @ string offset=7158
+	.asciz	"wchar_t"               @ string offset=7157
 .Linfo_string289:
-	.asciz	"fputwc"                @ string offset=7166
+	.asciz	"fputwc"                @ string offset=7165
 .Linfo_string290:
-	.asciz	"fputws"                @ string offset=7173
+	.asciz	"fputws"                @ string offset=7172
 .Linfo_string291:
-	.asciz	"fwide"                 @ string offset=7180
+	.asciz	"fwide"                 @ string offset=7179
 .Linfo_string292:
-	.asciz	"fwprintf"              @ string offset=7186
+	.asciz	"fwprintf"              @ string offset=7185
 .Linfo_string293:
-	.asciz	"fwscanf"               @ string offset=7195
+	.asciz	"fwscanf"               @ string offset=7194
 .Linfo_string294:
-	.asciz	"getwc"                 @ string offset=7203
+	.asciz	"getwc"                 @ string offset=7202
 .Linfo_string295:
-	.asciz	"getwchar"              @ string offset=7209
+	.asciz	"getwchar"              @ string offset=7208
 .Linfo_string296:
-	.asciz	"mbrlen"                @ string offset=7218
+	.asciz	"mbrlen"                @ string offset=7217
 .Linfo_string297:
-	.asciz	"mbrtowc"               @ string offset=7225
+	.asciz	"mbrtowc"               @ string offset=7224
 .Linfo_string298:
-	.asciz	"mbsinit"               @ string offset=7233
+	.asciz	"mbsinit"               @ string offset=7232
 .Linfo_string299:
-	.asciz	"mbsrtowcs"             @ string offset=7241
+	.asciz	"mbsrtowcs"             @ string offset=7240
 .Linfo_string300:
-	.asciz	"putwc"                 @ string offset=7251
+	.asciz	"putwc"                 @ string offset=7250
 .Linfo_string301:
-	.asciz	"putwchar"              @ string offset=7257
+	.asciz	"putwchar"              @ string offset=7256
 .Linfo_string302:
-	.asciz	"swprintf"              @ string offset=7266
+	.asciz	"swprintf"              @ string offset=7265
 .Linfo_string303:
-	.asciz	"swscanf"               @ string offset=7275
+	.asciz	"swscanf"               @ string offset=7274
 .Linfo_string304:
-	.asciz	"ungetwc"               @ string offset=7283
+	.asciz	"ungetwc"               @ string offset=7282
 .Linfo_string305:
-	.asciz	"vfwprintf"             @ string offset=7291
+	.asciz	"vfwprintf"             @ string offset=7290
 .Linfo_string306:
-	.asciz	"__ap"                  @ string offset=7301
+	.asciz	"__ap"                  @ string offset=7300
 .Linfo_string307:
-	.asciz	"__va_list"             @ string offset=7306
+	.asciz	"__va_list"             @ string offset=7305
 .Linfo_string308:
-	.asciz	"__builtin_va_list"     @ string offset=7316
+	.asciz	"__builtin_va_list"     @ string offset=7315
 .Linfo_string309:
-	.asciz	"__gnuc_va_list"        @ string offset=7334
+	.asciz	"__gnuc_va_list"        @ string offset=7333
 .Linfo_string310:
-	.asciz	"vfwscanf"              @ string offset=7349
+	.asciz	"vfwscanf"              @ string offset=7348
 .Linfo_string311:
-	.asciz	"vswprintf"             @ string offset=7358
+	.asciz	"vswprintf"             @ string offset=7357
 .Linfo_string312:
-	.asciz	"vswscanf"              @ string offset=7368
+	.asciz	"vswscanf"              @ string offset=7367
 .Linfo_string313:
-	.asciz	"vwprintf"              @ string offset=7377
+	.asciz	"vwprintf"              @ string offset=7376
 .Linfo_string314:
-	.asciz	"vwscanf"               @ string offset=7386
+	.asciz	"vwscanf"               @ string offset=7385
 .Linfo_string315:
-	.asciz	"wcrtomb"               @ string offset=7394
+	.asciz	"wcrtomb"               @ string offset=7393
 .Linfo_string316:
-	.asciz	"wcscat"                @ string offset=7402
+	.asciz	"wcscat"                @ string offset=7401
 .Linfo_string317:
-	.asciz	"wcscmp"                @ string offset=7409
+	.asciz	"wcscmp"                @ string offset=7408
 .Linfo_string318:
-	.asciz	"wcscoll"               @ string offset=7416
+	.asciz	"wcscoll"               @ string offset=7415
 .Linfo_string319:
-	.asciz	"wcscpy"                @ string offset=7424
+	.asciz	"wcscpy"                @ string offset=7423
 .Linfo_string320:
-	.asciz	"wcscspn"               @ string offset=7431
+	.asciz	"wcscspn"               @ string offset=7430
 .Linfo_string321:
-	.asciz	"wcsftime"              @ string offset=7439
+	.asciz	"wcsftime"              @ string offset=7438
 .Linfo_string322:
-	.asciz	"tm"                    @ string offset=7448
+	.asciz	"tm"                    @ string offset=7447
 .Linfo_string323:
-	.asciz	"wcslen"                @ string offset=7451
+	.asciz	"wcslen"                @ string offset=7450
 .Linfo_string324:
-	.asciz	"wcsncat"               @ string offset=7458
+	.asciz	"wcsncat"               @ string offset=7457
 .Linfo_string325:
-	.asciz	"wcsncmp"               @ string offset=7466
+	.asciz	"wcsncmp"               @ string offset=7465
 .Linfo_string326:
-	.asciz	"wcsncpy"               @ string offset=7474
+	.asciz	"wcsncpy"               @ string offset=7473
 .Linfo_string327:
-	.asciz	"wcsrtombs"             @ string offset=7482
+	.asciz	"wcsrtombs"             @ string offset=7481
 .Linfo_string328:
-	.asciz	"wcsspn"                @ string offset=7492
+	.asciz	"wcsspn"                @ string offset=7491
 .Linfo_string329:
-	.asciz	"wcstod"                @ string offset=7499
+	.asciz	"wcstod"                @ string offset=7498
 .Linfo_string330:
-	.asciz	"double"                @ string offset=7506
+	.asciz	"double"                @ string offset=7505
 .Linfo_string331:
-	.asciz	"wcstof"                @ string offset=7513
+	.asciz	"wcstof"                @ string offset=7512
 .Linfo_string332:
-	.asciz	"wcstok"                @ string offset=7520
+	.asciz	"wcstok"                @ string offset=7519
 .Linfo_string333:
-	.asciz	"wcstol"                @ string offset=7527
+	.asciz	"wcstol"                @ string offset=7526
 .Linfo_string334:
-	.asciz	"wcstoul"               @ string offset=7534
+	.asciz	"wcstoul"               @ string offset=7533
 .Linfo_string335:
-	.asciz	"long unsigned int"     @ string offset=7542
+	.asciz	"long unsigned int"     @ string offset=7541
 .Linfo_string336:
-	.asciz	"wcsxfrm"               @ string offset=7560
+	.asciz	"wcsxfrm"               @ string offset=7559
 .Linfo_string337:
-	.asciz	"wctob"                 @ string offset=7568
+	.asciz	"wctob"                 @ string offset=7567
 .Linfo_string338:
-	.asciz	"wmemcmp"               @ string offset=7574
+	.asciz	"wmemcmp"               @ string offset=7573
 .Linfo_string339:
-	.asciz	"wmemcpy"               @ string offset=7582
+	.asciz	"wmemcpy"               @ string offset=7581
 .Linfo_string340:
-	.asciz	"wmemmove"              @ string offset=7590
+	.asciz	"wmemmove"              @ string offset=7589
 .Linfo_string341:
-	.asciz	"wmemset"               @ string offset=7599
+	.asciz	"wmemset"               @ string offset=7598
 .Linfo_string342:
-	.asciz	"wprintf"               @ string offset=7607
+	.asciz	"wprintf"               @ string offset=7606
 .Linfo_string343:
-	.asciz	"wscanf"                @ string offset=7615
+	.asciz	"wscanf"                @ string offset=7614
 .Linfo_string344:
-	.asciz	"wcschr"                @ string offset=7622
+	.asciz	"wcschr"                @ string offset=7621
 .Linfo_string345:
-	.asciz	"wcspbrk"               @ string offset=7629
+	.asciz	"wcspbrk"               @ string offset=7628
 .Linfo_string346:
-	.asciz	"wcsrchr"               @ string offset=7637
+	.asciz	"wcsrchr"               @ string offset=7636
 .Linfo_string347:
-	.asciz	"wcsstr"                @ string offset=7645
+	.asciz	"wcsstr"                @ string offset=7644
 .Linfo_string348:
-	.asciz	"wmemchr"               @ string offset=7652
+	.asciz	"wmemchr"               @ string offset=7651
 .Linfo_string349:
-	.asciz	"wcstold"               @ string offset=7660
+	.asciz	"wcstold"               @ string offset=7659
 .Linfo_string350:
-	.asciz	"long double"           @ string offset=7668
+	.asciz	"long double"           @ string offset=7667
 .Linfo_string351:
-	.asciz	"wcstoll"               @ string offset=7680
+	.asciz	"wcstoll"               @ string offset=7679
 .Linfo_string352:
-	.asciz	"wcstoull"              @ string offset=7688
+	.asciz	"wcstoull"              @ string offset=7687
 .Linfo_string353:
-	.asciz	"long long unsigned int" @ string offset=7697
+	.asciz	"long long unsigned int" @ string offset=7696
 .Linfo_string354:
-	.asciz	"int8_t"                @ string offset=7720
+	.asciz	"int8_t"                @ string offset=7719
 .Linfo_string355:
-	.asciz	"short"                 @ string offset=7727
+	.asciz	"short"                 @ string offset=7726
 .Linfo_string356:
-	.asciz	"int16_t"               @ string offset=7733
+	.asciz	"int16_t"               @ string offset=7732
 .Linfo_string357:
-	.asciz	"int32_t"               @ string offset=7741
+	.asciz	"int32_t"               @ string offset=7740
 .Linfo_string358:
-	.asciz	"int64_t"               @ string offset=7749
+	.asciz	"int64_t"               @ string offset=7748
 .Linfo_string359:
-	.asciz	"int_fast8_t"           @ string offset=7757
+	.asciz	"int_fast8_t"           @ string offset=7756
 .Linfo_string360:
-	.asciz	"int_fast16_t"          @ string offset=7769
+	.asciz	"int_fast16_t"          @ string offset=7768
 .Linfo_string361:
-	.asciz	"int_fast32_t"          @ string offset=7782
+	.asciz	"int_fast32_t"          @ string offset=7781
 .Linfo_string362:
-	.asciz	"int_fast64_t"          @ string offset=7795
+	.asciz	"int_fast64_t"          @ string offset=7794
 .Linfo_string363:
-	.asciz	"int_least8_t"          @ string offset=7808
+	.asciz	"int_least8_t"          @ string offset=7807
 .Linfo_string364:
-	.asciz	"int_least16_t"         @ string offset=7821
+	.asciz	"int_least16_t"         @ string offset=7820
 .Linfo_string365:
-	.asciz	"int_least32_t"         @ string offset=7835
+	.asciz	"int_least32_t"         @ string offset=7834
 .Linfo_string366:
-	.asciz	"int_least64_t"         @ string offset=7849
+	.asciz	"int_least64_t"         @ string offset=7848
 .Linfo_string367:
-	.asciz	"intmax_t"              @ string offset=7863
+	.asciz	"intmax_t"              @ string offset=7862
 .Linfo_string368:
-	.asciz	"intptr_t"              @ string offset=7872
+	.asciz	"intptr_t"              @ string offset=7871
 .Linfo_string369:
-	.asciz	"unsigned char"         @ string offset=7881
+	.asciz	"unsigned char"         @ string offset=7880
 .Linfo_string370:
-	.asciz	"uint8_t"               @ string offset=7895
+	.asciz	"uint8_t"               @ string offset=7894
 .Linfo_string371:
-	.asciz	"uint16_t"              @ string offset=7903
+	.asciz	"uint16_t"              @ string offset=7902
 .Linfo_string372:
-	.asciz	"uint32_t"              @ string offset=7912
+	.asciz	"uint32_t"              @ string offset=7911
 .Linfo_string373:
-	.asciz	"uint64_t"              @ string offset=7921
+	.asciz	"uint64_t"              @ string offset=7920
 .Linfo_string374:
-	.asciz	"uint_fast8_t"          @ string offset=7930
+	.asciz	"uint_fast8_t"          @ string offset=7929
 .Linfo_string375:
-	.asciz	"uint_fast16_t"         @ string offset=7943
+	.asciz	"uint_fast16_t"         @ string offset=7942
 .Linfo_string376:
-	.asciz	"uint_fast32_t"         @ string offset=7957
+	.asciz	"uint_fast32_t"         @ string offset=7956
 .Linfo_string377:
-	.asciz	"uint_fast64_t"         @ string offset=7971
+	.asciz	"uint_fast64_t"         @ string offset=7970
 .Linfo_string378:
-	.asciz	"uint_least8_t"         @ string offset=7985
+	.asciz	"uint_least8_t"         @ string offset=7984
 .Linfo_string379:
-	.asciz	"uint_least16_t"        @ string offset=7999
+	.asciz	"uint_least16_t"        @ string offset=7998
 .Linfo_string380:
-	.asciz	"uint_least32_t"        @ string offset=8014
+	.asciz	"uint_least32_t"        @ string offset=8013
 .Linfo_string381:
-	.asciz	"uint_least64_t"        @ string offset=8029
+	.asciz	"uint_least64_t"        @ string offset=8028
 .Linfo_string382:
-	.asciz	"uintmax_t"             @ string offset=8044
+	.asciz	"uintmax_t"             @ string offset=8043
 .Linfo_string383:
-	.asciz	"uintptr_t"             @ string offset=8054
+	.asciz	"uintptr_t"             @ string offset=8053
 .Linfo_string384:
-	.asciz	"__exception_ptr"       @ string offset=8064
+	.asciz	"__exception_ptr"       @ string offset=8063
 .Linfo_string385:
-	.asciz	"_M_exception_object"   @ string offset=8080
+	.asciz	"_M_exception_object"   @ string offset=8079
 .Linfo_string386:
-	.asciz	"exception_ptr"         @ string offset=8100
+	.asciz	"exception_ptr"         @ string offset=8099
 .Linfo_string387:
-	.asciz	"_ZNSt15__exception_ptr13exception_ptr9_M_addrefEv" @ string offset=8114
+	.asciz	"_ZNSt15__exception_ptr13exception_ptr9_M_addrefEv" @ string offset=8113
 .Linfo_string388:
-	.asciz	"_M_addref"             @ string offset=8164
+	.asciz	"_M_addref"             @ string offset=8163
 .Linfo_string389:
-	.asciz	"_ZNSt15__exception_ptr13exception_ptr10_M_releaseEv" @ string offset=8174
+	.asciz	"_ZNSt15__exception_ptr13exception_ptr10_M_releaseEv" @ string offset=8173
 .Linfo_string390:
-	.asciz	"_M_release"            @ string offset=8226
+	.asciz	"_M_release"            @ string offset=8225
 .Linfo_string391:
-	.asciz	"_ZNKSt15__exception_ptr13exception_ptr6_M_getEv" @ string offset=8237
+	.asciz	"_ZNKSt15__exception_ptr13exception_ptr6_M_getEv" @ string offset=8236
 .Linfo_string392:
-	.asciz	"_M_get"                @ string offset=8285
+	.asciz	"_M_get"                @ string offset=8284
 .Linfo_string393:
-	.asciz	"decltype(nullptr)"     @ string offset=8292
+	.asciz	"decltype(nullptr)"     @ string offset=8291
 .Linfo_string394:
-	.asciz	"nullptr_t"             @ string offset=8310
+	.asciz	"nullptr_t"             @ string offset=8309
 .Linfo_string395:
-	.asciz	"_ZNSt15__exception_ptr13exception_ptraSERKS0_" @ string offset=8320
+	.asciz	"_ZNSt15__exception_ptr13exception_ptraSERKS0_" @ string offset=8319
 .Linfo_string396:
-	.asciz	"_ZNSt15__exception_ptr13exception_ptraSEOS0_" @ string offset=8366
+	.asciz	"_ZNSt15__exception_ptr13exception_ptraSEOS0_" @ string offset=8365
 .Linfo_string397:
-	.asciz	"~exception_ptr"        @ string offset=8411
+	.asciz	"~exception_ptr"        @ string offset=8410
 .Linfo_string398:
-	.asciz	"_ZNSt15__exception_ptr13exception_ptr4swapERS0_" @ string offset=8426
+	.asciz	"_ZNSt15__exception_ptr13exception_ptr4swapERS0_" @ string offset=8425
 .Linfo_string399:
-	.asciz	"_ZNKSt15__exception_ptr13exception_ptrcvbEv" @ string offset=8474
+	.asciz	"_ZNKSt15__exception_ptr13exception_ptrcvbEv" @ string offset=8473
 .Linfo_string400:
-	.asciz	"_ZNKSt15__exception_ptr13exception_ptr20__cxa_exception_typeEv" @ string offset=8518
+	.asciz	"_ZNKSt15__exception_ptr13exception_ptr20__cxa_exception_typeEv" @ string offset=8517
 .Linfo_string401:
-	.asciz	"__cxa_exception_type"  @ string offset=8581
+	.asciz	"__cxa_exception_type"  @ string offset=8580
 .Linfo_string402:
-	.asciz	"type_info"             @ string offset=8602
+	.asciz	"type_info"             @ string offset=8601
 .Linfo_string403:
-	.asciz	"_ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE" @ string offset=8612
+	.asciz	"_ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE" @ string offset=8611
 .Linfo_string404:
-	.asciz	"rethrow_exception"     @ string offset=8672
+	.asciz	"rethrow_exception"     @ string offset=8671
 .Linfo_string405:
-	.asciz	"lconv"                 @ string offset=8690
+	.asciz	"lconv"                 @ string offset=8689
 .Linfo_string406:
-	.asciz	"setlocale"             @ string offset=8696
+	.asciz	"setlocale"             @ string offset=8695
 .Linfo_string407:
-	.asciz	"localeconv"            @ string offset=8706
+	.asciz	"localeconv"            @ string offset=8705
 .Linfo_string408:
-	.asciz	"isalnum"               @ string offset=8717
+	.asciz	"isalnum"               @ string offset=8716
 .Linfo_string409:
-	.asciz	"isalpha"               @ string offset=8725
+	.asciz	"isalpha"               @ string offset=8724
 .Linfo_string410:
-	.asciz	"iscntrl"               @ string offset=8733
+	.asciz	"iscntrl"               @ string offset=8732
 .Linfo_string411:
-	.asciz	"isdigit"               @ string offset=8741
+	.asciz	"isdigit"               @ string offset=8740
 .Linfo_string412:
-	.asciz	"isgraph"               @ string offset=8749
+	.asciz	"isgraph"               @ string offset=8748
 .Linfo_string413:
-	.asciz	"islower"               @ string offset=8757
+	.asciz	"islower"               @ string offset=8756
 .Linfo_string414:
-	.asciz	"isprint"               @ string offset=8765
+	.asciz	"isprint"               @ string offset=8764
 .Linfo_string415:
-	.asciz	"ispunct"               @ string offset=8773
+	.asciz	"ispunct"               @ string offset=8772
 .Linfo_string416:
-	.asciz	"isspace"               @ string offset=8781
+	.asciz	"isspace"               @ string offset=8780
 .Linfo_string417:
-	.asciz	"isupper"               @ string offset=8789
+	.asciz	"isupper"               @ string offset=8788
 .Linfo_string418:
-	.asciz	"isxdigit"              @ string offset=8797
+	.asciz	"isxdigit"              @ string offset=8796
 .Linfo_string419:
-	.asciz	"tolower"               @ string offset=8806
+	.asciz	"tolower"               @ string offset=8805
 .Linfo_string420:
-	.asciz	"toupper"               @ string offset=8814
+	.asciz	"toupper"               @ string offset=8813
 .Linfo_string421:
-	.asciz	"isblank"               @ string offset=8822
+	.asciz	"isblank"               @ string offset=8821
 .Linfo_string422:
-	.asciz	"div_t"                 @ string offset=8830
+	.asciz	"div_t"                 @ string offset=8829
 .Linfo_string423:
-	.asciz	"quot"                  @ string offset=8836
+	.asciz	"quot"                  @ string offset=8835
 .Linfo_string424:
-	.asciz	"rem"                   @ string offset=8841
+	.asciz	"rem"                   @ string offset=8840
 .Linfo_string425:
-	.asciz	"ldiv_t"                @ string offset=8845
+	.asciz	"ldiv_t"                @ string offset=8844
 .Linfo_string426:
-	.asciz	"abort"                 @ string offset=8852
+	.asciz	"abort"                 @ string offset=8851
 .Linfo_string427:
-	.asciz	"abs"                   @ string offset=8858
+	.asciz	"abs"                   @ string offset=8857
 .Linfo_string428:
-	.asciz	"atexit"                @ string offset=8862
+	.asciz	"atexit"                @ string offset=8861
 .Linfo_string429:
-	.asciz	"at_quick_exit"         @ string offset=8869
+	.asciz	"at_quick_exit"         @ string offset=8868
 .Linfo_string430:
-	.asciz	"atof"                  @ string offset=8883
+	.asciz	"atof"                  @ string offset=8882
 .Linfo_string431:
-	.asciz	"atoi"                  @ string offset=8888
+	.asciz	"atoi"                  @ string offset=8887
 .Linfo_string432:
-	.asciz	"atol"                  @ string offset=8893
+	.asciz	"atol"                  @ string offset=8892
 .Linfo_string433:
-	.asciz	"bsearch"               @ string offset=8898
+	.asciz	"bsearch"               @ string offset=8897
 .Linfo_string434:
-	.asciz	"__compar_fn_t"         @ string offset=8906
+	.asciz	"__compar_fn_t"         @ string offset=8905
 .Linfo_string435:
-	.asciz	"calloc"                @ string offset=8920
+	.asciz	"calloc"                @ string offset=8919
 .Linfo_string436:
-	.asciz	"div"                   @ string offset=8927
+	.asciz	"div"                   @ string offset=8926
 .Linfo_string437:
-	.asciz	"exit"                  @ string offset=8931
+	.asciz	"exit"                  @ string offset=8930
 .Linfo_string438:
-	.asciz	"free"                  @ string offset=8936
+	.asciz	"free"                  @ string offset=8935
 .Linfo_string439:
-	.asciz	"getenv"                @ string offset=8941
+	.asciz	"getenv"                @ string offset=8940
 .Linfo_string440:
-	.asciz	"labs"                  @ string offset=8948
+	.asciz	"labs"                  @ string offset=8947
 .Linfo_string441:
-	.asciz	"ldiv"                  @ string offset=8953
+	.asciz	"ldiv"                  @ string offset=8952
 .Linfo_string442:
-	.asciz	"malloc"                @ string offset=8958
+	.asciz	"malloc"                @ string offset=8957
 .Linfo_string443:
-	.asciz	"mblen"                 @ string offset=8965
+	.asciz	"mblen"                 @ string offset=8964
 .Linfo_string444:
-	.asciz	"mbstowcs"              @ string offset=8971
+	.asciz	"mbstowcs"              @ string offset=8970
 .Linfo_string445:
-	.asciz	"mbtowc"                @ string offset=8980
+	.asciz	"mbtowc"                @ string offset=8979
 .Linfo_string446:
-	.asciz	"qsort"                 @ string offset=8987
+	.asciz	"qsort"                 @ string offset=8986
 .Linfo_string447:
-	.asciz	"quick_exit"            @ string offset=8993
+	.asciz	"quick_exit"            @ string offset=8992
 .Linfo_string448:
-	.asciz	"rand"                  @ string offset=9004
+	.asciz	"rand"                  @ string offset=9003
 .Linfo_string449:
-	.asciz	"realloc"               @ string offset=9009
+	.asciz	"realloc"               @ string offset=9008
 .Linfo_string450:
-	.asciz	"srand"                 @ string offset=9017
+	.asciz	"srand"                 @ string offset=9016
 .Linfo_string451:
-	.asciz	"strtod"                @ string offset=9023
+	.asciz	"strtod"                @ string offset=9022
 .Linfo_string452:
-	.asciz	"strtol"                @ string offset=9030
+	.asciz	"strtol"                @ string offset=9029
 .Linfo_string453:
-	.asciz	"strtoul"               @ string offset=9037
+	.asciz	"strtoul"               @ string offset=9036
 .Linfo_string454:
-	.asciz	"system"                @ string offset=9045
+	.asciz	"system"                @ string offset=9044
 .Linfo_string455:
-	.asciz	"wcstombs"              @ string offset=9052
+	.asciz	"wcstombs"              @ string offset=9051
 .Linfo_string456:
-	.asciz	"wctomb"                @ string offset=9061
+	.asciz	"wctomb"                @ string offset=9060
 .Linfo_string457:
-	.asciz	"lldiv_t"               @ string offset=9068
+	.asciz	"lldiv_t"               @ string offset=9067
 .Linfo_string458:
-	.asciz	"_Exit"                 @ string offset=9076
+	.asciz	"_Exit"                 @ string offset=9075
 .Linfo_string459:
-	.asciz	"llabs"                 @ string offset=9082
+	.asciz	"llabs"                 @ string offset=9081
 .Linfo_string460:
-	.asciz	"lldiv"                 @ string offset=9088
+	.asciz	"lldiv"                 @ string offset=9087
 .Linfo_string461:
-	.asciz	"atoll"                 @ string offset=9094
+	.asciz	"atoll"                 @ string offset=9093
 .Linfo_string462:
-	.asciz	"strtoll"               @ string offset=9100
+	.asciz	"strtoll"               @ string offset=9099
 .Linfo_string463:
-	.asciz	"strtoull"              @ string offset=9108
+	.asciz	"strtoull"              @ string offset=9107
 .Linfo_string464:
-	.asciz	"strtof"                @ string offset=9117
+	.asciz	"strtof"                @ string offset=9116
 .Linfo_string465:
-	.asciz	"strtold"               @ string offset=9124
+	.asciz	"strtold"               @ string offset=9123
 .Linfo_string466:
-	.asciz	"_ZN9__gnu_cxx3divExx"  @ string offset=9132
+	.asciz	"_ZN9__gnu_cxx3divExx"  @ string offset=9131
 .Linfo_string467:
-	.asciz	"FILE"                  @ string offset=9153
+	.asciz	"FILE"                  @ string offset=9152
 .Linfo_string468:
-	.asciz	"_G_fpos_t"             @ string offset=9158
+	.asciz	"_G_fpos_t"             @ string offset=9157
 .Linfo_string469:
-	.asciz	"fpos_t"                @ string offset=9168
+	.asciz	"fpos_t"                @ string offset=9167
 .Linfo_string470:
-	.asciz	"clearerr"              @ string offset=9175
+	.asciz	"clearerr"              @ string offset=9174
 .Linfo_string471:
-	.asciz	"fclose"                @ string offset=9184
+	.asciz	"fclose"                @ string offset=9183
 .Linfo_string472:
-	.asciz	"feof"                  @ string offset=9191
+	.asciz	"feof"                  @ string offset=9190
 .Linfo_string473:
-	.asciz	"ferror"                @ string offset=9196
+	.asciz	"ferror"                @ string offset=9195
 .Linfo_string474:
-	.asciz	"fflush"                @ string offset=9203
+	.asciz	"fflush"                @ string offset=9202
 .Linfo_string475:
-	.asciz	"fgetc"                 @ string offset=9210
+	.asciz	"fgetc"                 @ string offset=9209
 .Linfo_string476:
-	.asciz	"fgetpos"               @ string offset=9216
+	.asciz	"fgetpos"               @ string offset=9215
 .Linfo_string477:
-	.asciz	"fgets"                 @ string offset=9224
+	.asciz	"fgets"                 @ string offset=9223
 .Linfo_string478:
-	.asciz	"fopen"                 @ string offset=9230
+	.asciz	"fopen"                 @ string offset=9229
 .Linfo_string479:
-	.asciz	"fprintf"               @ string offset=9236
+	.asciz	"fprintf"               @ string offset=9235
 .Linfo_string480:
-	.asciz	"fputc"                 @ string offset=9244
+	.asciz	"fputc"                 @ string offset=9243
 .Linfo_string481:
-	.asciz	"fputs"                 @ string offset=9250
+	.asciz	"fputs"                 @ string offset=9249
 .Linfo_string482:
-	.asciz	"fread"                 @ string offset=9256
+	.asciz	"fread"                 @ string offset=9255
 .Linfo_string483:
-	.asciz	"freopen"               @ string offset=9262
+	.asciz	"freopen"               @ string offset=9261
 .Linfo_string484:
-	.asciz	"fscanf"                @ string offset=9270
+	.asciz	"fscanf"                @ string offset=9269
 .Linfo_string485:
-	.asciz	"fseek"                 @ string offset=9277
+	.asciz	"fseek"                 @ string offset=9276
 .Linfo_string486:
-	.asciz	"fsetpos"               @ string offset=9283
+	.asciz	"fsetpos"               @ string offset=9282
 .Linfo_string487:
-	.asciz	"ftell"                 @ string offset=9291
+	.asciz	"ftell"                 @ string offset=9290
 .Linfo_string488:
-	.asciz	"fwrite"                @ string offset=9297
+	.asciz	"fwrite"                @ string offset=9296
 .Linfo_string489:
-	.asciz	"getc"                  @ string offset=9304
+	.asciz	"getc"                  @ string offset=9303
 .Linfo_string490:
-	.asciz	"getchar"               @ string offset=9309
+	.asciz	"getchar"               @ string offset=9308
 .Linfo_string491:
-	.asciz	"gets"                  @ string offset=9317
+	.asciz	"gets"                  @ string offset=9316
 .Linfo_string492:
-	.asciz	"perror"                @ string offset=9322
+	.asciz	"perror"                @ string offset=9321
 .Linfo_string493:
-	.asciz	"printf"                @ string offset=9329
+	.asciz	"printf"                @ string offset=9328
 .Linfo_string494:
-	.asciz	"putc"                  @ string offset=9336
+	.asciz	"putc"                  @ string offset=9335
 .Linfo_string495:
-	.asciz	"putchar"               @ string offset=9341
+	.asciz	"putchar"               @ string offset=9340
 .Linfo_string496:
-	.asciz	"puts"                  @ string offset=9349
+	.asciz	"puts"                  @ string offset=9348
 .Linfo_string497:
-	.asciz	"remove"                @ string offset=9354
+	.asciz	"remove"                @ string offset=9353
 .Linfo_string498:
-	.asciz	"rename"                @ string offset=9361
+	.asciz	"rename"                @ string offset=9360
 .Linfo_string499:
-	.asciz	"rewind"                @ string offset=9368
+	.asciz	"rewind"                @ string offset=9367
 .Linfo_string500:
-	.asciz	"scanf"                 @ string offset=9375
+	.asciz	"scanf"                 @ string offset=9374
 .Linfo_string501:
-	.asciz	"setbuf"                @ string offset=9381
+	.asciz	"setbuf"                @ string offset=9380
 .Linfo_string502:
-	.asciz	"setvbuf"               @ string offset=9388
+	.asciz	"setvbuf"               @ string offset=9387
 .Linfo_string503:
-	.asciz	"sprintf"               @ string offset=9396
+	.asciz	"sprintf"               @ string offset=9395
 .Linfo_string504:
-	.asciz	"sscanf"                @ string offset=9404
+	.asciz	"sscanf"                @ string offset=9403
 .Linfo_string505:
-	.asciz	"tmpfile"               @ string offset=9411
+	.asciz	"tmpfile"               @ string offset=9410
 .Linfo_string506:
-	.asciz	"tmpnam"                @ string offset=9419
+	.asciz	"tmpnam"                @ string offset=9418
 .Linfo_string507:
-	.asciz	"ungetc"                @ string offset=9426
+	.asciz	"ungetc"                @ string offset=9425
 .Linfo_string508:
-	.asciz	"vfprintf"              @ string offset=9433
+	.asciz	"vfprintf"              @ string offset=9432
 .Linfo_string509:
-	.asciz	"vprintf"               @ string offset=9442
+	.asciz	"vprintf"               @ string offset=9441
 .Linfo_string510:
-	.asciz	"vsprintf"              @ string offset=9450
+	.asciz	"vsprintf"              @ string offset=9449
 .Linfo_string511:
-	.asciz	"snprintf"              @ string offset=9459
+	.asciz	"snprintf"              @ string offset=9458
 .Linfo_string512:
-	.asciz	"vfscanf"               @ string offset=9468
+	.asciz	"vfscanf"               @ string offset=9467
 .Linfo_string513:
-	.asciz	"vscanf"                @ string offset=9476
+	.asciz	"vscanf"                @ string offset=9475
 .Linfo_string514:
-	.asciz	"vsnprintf"             @ string offset=9483
+	.asciz	"vsnprintf"             @ string offset=9482
 .Linfo_string515:
-	.asciz	"vsscanf"               @ string offset=9493
+	.asciz	"vsscanf"               @ string offset=9492
 .Linfo_string516:
-	.asciz	"__acos_finite"         @ string offset=9501
+	.asciz	"__acos_finite"         @ string offset=9500
 .Linfo_string517:
-	.asciz	"acos"                  @ string offset=9515
+	.asciz	"acos"                  @ string offset=9514
 .Linfo_string518:
-	.asciz	"__asin_finite"         @ string offset=9520
+	.asciz	"__asin_finite"         @ string offset=9519
 .Linfo_string519:
-	.asciz	"asin"                  @ string offset=9534
+	.asciz	"asin"                  @ string offset=9533
 .Linfo_string520:
-	.asciz	"atan"                  @ string offset=9539
+	.asciz	"atan"                  @ string offset=9538
 .Linfo_string521:
-	.asciz	"__atan2_finite"        @ string offset=9544
+	.asciz	"__atan2_finite"        @ string offset=9543
 .Linfo_string522:
-	.asciz	"atan2"                 @ string offset=9559
+	.asciz	"atan2"                 @ string offset=9558
 .Linfo_string523:
-	.asciz	"ceil"                  @ string offset=9565
+	.asciz	"ceil"                  @ string offset=9564
 .Linfo_string524:
-	.asciz	"cos"                   @ string offset=9570
+	.asciz	"cos"                   @ string offset=9569
 .Linfo_string525:
-	.asciz	"__cosh_finite"         @ string offset=9574
+	.asciz	"__cosh_finite"         @ string offset=9573
 .Linfo_string526:
-	.asciz	"cosh"                  @ string offset=9588
+	.asciz	"cosh"                  @ string offset=9587
 .Linfo_string527:
-	.asciz	"__exp_finite"          @ string offset=9593
+	.asciz	"__exp_finite"          @ string offset=9592
 .Linfo_string528:
-	.asciz	"exp"                   @ string offset=9606
+	.asciz	"exp"                   @ string offset=9605
 .Linfo_string529:
-	.asciz	"fabs"                  @ string offset=9610
+	.asciz	"fabs"                  @ string offset=9609
 .Linfo_string530:
-	.asciz	"floor"                 @ string offset=9615
+	.asciz	"floor"                 @ string offset=9614
 .Linfo_string531:
-	.asciz	"__fmod_finite"         @ string offset=9621
+	.asciz	"__fmod_finite"         @ string offset=9620
 .Linfo_string532:
-	.asciz	"fmod"                  @ string offset=9635
+	.asciz	"fmod"                  @ string offset=9634
 .Linfo_string533:
-	.asciz	"frexp"                 @ string offset=9640
+	.asciz	"frexp"                 @ string offset=9639
 .Linfo_string534:
-	.asciz	"ldexp"                 @ string offset=9646
+	.asciz	"ldexp"                 @ string offset=9645
 .Linfo_string535:
-	.asciz	"__log_finite"          @ string offset=9652
+	.asciz	"__log_finite"          @ string offset=9651
 .Linfo_string536:
-	.asciz	"log"                   @ string offset=9665
+	.asciz	"log"                   @ string offset=9664
 .Linfo_string537:
-	.asciz	"__log10_finite"        @ string offset=9669
+	.asciz	"__log10_finite"        @ string offset=9668
 .Linfo_string538:
-	.asciz	"log10"                 @ string offset=9684
+	.asciz	"log10"                 @ string offset=9683
 .Linfo_string539:
-	.asciz	"modf"                  @ string offset=9690
+	.asciz	"modf"                  @ string offset=9689
 .Linfo_string540:
-	.asciz	"__pow_finite"          @ string offset=9695
+	.asciz	"__pow_finite"          @ string offset=9694
 .Linfo_string541:
-	.asciz	"pow"                   @ string offset=9708
+	.asciz	"pow"                   @ string offset=9707
 .Linfo_string542:
-	.asciz	"sin"                   @ string offset=9712
+	.asciz	"sin"                   @ string offset=9711
 .Linfo_string543:
-	.asciz	"__sinh_finite"         @ string offset=9716
+	.asciz	"__sinh_finite"         @ string offset=9715
 .Linfo_string544:
-	.asciz	"sinh"                  @ string offset=9730
+	.asciz	"sinh"                  @ string offset=9729
 .Linfo_string545:
-	.asciz	"__sqrt_finite"         @ string offset=9735
+	.asciz	"__sqrt_finite"         @ string offset=9734
 .Linfo_string546:
-	.asciz	"sqrt"                  @ string offset=9749
+	.asciz	"sqrt"                  @ string offset=9748
 .Linfo_string547:
-	.asciz	"tan"                   @ string offset=9754
+	.asciz	"tan"                   @ string offset=9753
 .Linfo_string548:
-	.asciz	"tanh"                  @ string offset=9758
+	.asciz	"tanh"                  @ string offset=9757
 .Linfo_string549:
-	.asciz	"double_t"              @ string offset=9763
+	.asciz	"double_t"              @ string offset=9762
 .Linfo_string550:
-	.asciz	"float_t"               @ string offset=9772
+	.asciz	"float_t"               @ string offset=9771
 .Linfo_string551:
-	.asciz	"__acosh_finite"        @ string offset=9780
+	.asciz	"__acosh_finite"        @ string offset=9779
 .Linfo_string552:
-	.asciz	"acosh"                 @ string offset=9795
+	.asciz	"acosh"                 @ string offset=9794
 .Linfo_string553:
-	.asciz	"__acoshf_finite"       @ string offset=9801
+	.asciz	"__acoshf_finite"       @ string offset=9800
 .Linfo_string554:
-	.asciz	"acoshf"                @ string offset=9817
+	.asciz	"acoshf"                @ string offset=9816
 .Linfo_string555:
-	.asciz	"acoshl"                @ string offset=9824
+	.asciz	"acoshl"                @ string offset=9823
 .Linfo_string556:
-	.asciz	"asinh"                 @ string offset=9831
+	.asciz	"asinh"                 @ string offset=9830
 .Linfo_string557:
-	.asciz	"asinhf"                @ string offset=9837
+	.asciz	"asinhf"                @ string offset=9836
 .Linfo_string558:
-	.asciz	"asinhl"                @ string offset=9844
+	.asciz	"asinhl"                @ string offset=9843
 .Linfo_string559:
-	.asciz	"__atanh_finite"        @ string offset=9851
+	.asciz	"__atanh_finite"        @ string offset=9850
 .Linfo_string560:
-	.asciz	"atanh"                 @ string offset=9866
+	.asciz	"atanh"                 @ string offset=9865
 .Linfo_string561:
-	.asciz	"__atanhf_finite"       @ string offset=9872
+	.asciz	"__atanhf_finite"       @ string offset=9871
 .Linfo_string562:
-	.asciz	"atanhf"                @ string offset=9888
+	.asciz	"atanhf"                @ string offset=9887
 .Linfo_string563:
-	.asciz	"atanhl"                @ string offset=9895
+	.asciz	"atanhl"                @ string offset=9894
 .Linfo_string564:
-	.asciz	"cbrt"                  @ string offset=9902
+	.asciz	"cbrt"                  @ string offset=9901
 .Linfo_string565:
-	.asciz	"cbrtf"                 @ string offset=9907
+	.asciz	"cbrtf"                 @ string offset=9906
 .Linfo_string566:
-	.asciz	"cbrtl"                 @ string offset=9913
+	.asciz	"cbrtl"                 @ string offset=9912
 .Linfo_string567:
-	.asciz	"copysign"              @ string offset=9919
+	.asciz	"copysign"              @ string offset=9918
 .Linfo_string568:
-	.asciz	"copysignf"             @ string offset=9928
+	.asciz	"copysignf"             @ string offset=9927
 .Linfo_string569:
-	.asciz	"copysignl"             @ string offset=9938
+	.asciz	"copysignl"             @ string offset=9937
 .Linfo_string570:
-	.asciz	"erf"                   @ string offset=9948
+	.asciz	"erf"                   @ string offset=9947
 .Linfo_string571:
-	.asciz	"erff"                  @ string offset=9952
+	.asciz	"erff"                  @ string offset=9951
 .Linfo_string572:
-	.asciz	"erfl"                  @ string offset=9957
+	.asciz	"erfl"                  @ string offset=9956
 .Linfo_string573:
-	.asciz	"erfc"                  @ string offset=9962
+	.asciz	"erfc"                  @ string offset=9961
 .Linfo_string574:
-	.asciz	"erfcf"                 @ string offset=9967
+	.asciz	"erfcf"                 @ string offset=9966
 .Linfo_string575:
-	.asciz	"erfcl"                 @ string offset=9973
+	.asciz	"erfcl"                 @ string offset=9972
 .Linfo_string576:
-	.asciz	"__exp2_finite"         @ string offset=9979
+	.asciz	"__exp2_finite"         @ string offset=9978
 .Linfo_string577:
-	.asciz	"exp2"                  @ string offset=9993
+	.asciz	"exp2"                  @ string offset=9992
 .Linfo_string578:
-	.asciz	"__exp2f_finite"        @ string offset=9998
+	.asciz	"__exp2f_finite"        @ string offset=9997
 .Linfo_string579:
-	.asciz	"exp2f"                 @ string offset=10013
+	.asciz	"exp2f"                 @ string offset=10012
 .Linfo_string580:
-	.asciz	"exp2l"                 @ string offset=10019
+	.asciz	"exp2l"                 @ string offset=10018
 .Linfo_string581:
-	.asciz	"expm1"                 @ string offset=10025
+	.asciz	"expm1"                 @ string offset=10024
 .Linfo_string582:
-	.asciz	"expm1f"                @ string offset=10031
+	.asciz	"expm1f"                @ string offset=10030
 .Linfo_string583:
-	.asciz	"expm1l"                @ string offset=10038
+	.asciz	"expm1l"                @ string offset=10037
 .Linfo_string584:
-	.asciz	"fdim"                  @ string offset=10045
+	.asciz	"fdim"                  @ string offset=10044
 .Linfo_string585:
-	.asciz	"fdimf"                 @ string offset=10050
+	.asciz	"fdimf"                 @ string offset=10049
 .Linfo_string586:
-	.asciz	"fdiml"                 @ string offset=10056
+	.asciz	"fdiml"                 @ string offset=10055
 .Linfo_string587:
-	.asciz	"fma"                   @ string offset=10062
+	.asciz	"fma"                   @ string offset=10061
 .Linfo_string588:
-	.asciz	"fmaf"                  @ string offset=10066
+	.asciz	"fmaf"                  @ string offset=10065
 .Linfo_string589:
-	.asciz	"fmal"                  @ string offset=10071
+	.asciz	"fmal"                  @ string offset=10070
 .Linfo_string590:
-	.asciz	"fmax"                  @ string offset=10076
+	.asciz	"fmax"                  @ string offset=10075
 .Linfo_string591:
-	.asciz	"fmaxf"                 @ string offset=10081
+	.asciz	"fmaxf"                 @ string offset=10080
 .Linfo_string592:
-	.asciz	"fmaxl"                 @ string offset=10087
+	.asciz	"fmaxl"                 @ string offset=10086
 .Linfo_string593:
-	.asciz	"fmin"                  @ string offset=10093
+	.asciz	"fmin"                  @ string offset=10092
 .Linfo_string594:
-	.asciz	"fminf"                 @ string offset=10098
+	.asciz	"fminf"                 @ string offset=10097
 .Linfo_string595:
-	.asciz	"fminl"                 @ string offset=10104
+	.asciz	"fminl"                 @ string offset=10103
 .Linfo_string596:
-	.asciz	"__hypot_finite"        @ string offset=10110
+	.asciz	"__hypot_finite"        @ string offset=10109
 .Linfo_string597:
-	.asciz	"hypot"                 @ string offset=10125
+	.asciz	"hypot"                 @ string offset=10124
 .Linfo_string598:
-	.asciz	"__hypotf_finite"       @ string offset=10131
+	.asciz	"__hypotf_finite"       @ string offset=10130
 .Linfo_string599:
-	.asciz	"hypotf"                @ string offset=10147
+	.asciz	"hypotf"                @ string offset=10146
 .Linfo_string600:
-	.asciz	"hypotl"                @ string offset=10154
+	.asciz	"hypotl"                @ string offset=10153
 .Linfo_string601:
-	.asciz	"ilogb"                 @ string offset=10161
+	.asciz	"ilogb"                 @ string offset=10160
 .Linfo_string602:
-	.asciz	"ilogbf"                @ string offset=10167
+	.asciz	"ilogbf"                @ string offset=10166
 .Linfo_string603:
-	.asciz	"ilogbl"                @ string offset=10174
+	.asciz	"ilogbl"                @ string offset=10173
 .Linfo_string604:
-	.asciz	"lgamma"                @ string offset=10181
+	.asciz	"lgamma"                @ string offset=10180
 .Linfo_string605:
-	.asciz	"lgammaf"               @ string offset=10188
+	.asciz	"lgammaf"               @ string offset=10187
 .Linfo_string606:
-	.asciz	"lgammal"               @ string offset=10196
+	.asciz	"lgammal"               @ string offset=10195
 .Linfo_string607:
-	.asciz	"llrint"                @ string offset=10204
+	.asciz	"llrint"                @ string offset=10203
 .Linfo_string608:
-	.asciz	"llrintf"               @ string offset=10211
+	.asciz	"llrintf"               @ string offset=10210
 .Linfo_string609:
-	.asciz	"llrintl"               @ string offset=10219
+	.asciz	"llrintl"               @ string offset=10218
 .Linfo_string610:
-	.asciz	"llround"               @ string offset=10227
+	.asciz	"llround"               @ string offset=10226
 .Linfo_string611:
-	.asciz	"llroundf"              @ string offset=10235
+	.asciz	"llroundf"              @ string offset=10234
 .Linfo_string612:
-	.asciz	"llroundl"              @ string offset=10244
+	.asciz	"llroundl"              @ string offset=10243
 .Linfo_string613:
-	.asciz	"log1p"                 @ string offset=10253
+	.asciz	"log1p"                 @ string offset=10252
 .Linfo_string614:
-	.asciz	"log1pf"                @ string offset=10259
+	.asciz	"log1pf"                @ string offset=10258
 .Linfo_string615:
-	.asciz	"log1pl"                @ string offset=10266
+	.asciz	"log1pl"                @ string offset=10265
 .Linfo_string616:
-	.asciz	"__log2_finite"         @ string offset=10273
+	.asciz	"__log2_finite"         @ string offset=10272
 .Linfo_string617:
-	.asciz	"log2"                  @ string offset=10287
+	.asciz	"log2"                  @ string offset=10286
 .Linfo_string618:
-	.asciz	"__log2f_finite"        @ string offset=10292
+	.asciz	"__log2f_finite"        @ string offset=10291
 .Linfo_string619:
-	.asciz	"log2f"                 @ string offset=10307
+	.asciz	"log2f"                 @ string offset=10306
 .Linfo_string620:
-	.asciz	"log2l"                 @ string offset=10313
+	.asciz	"log2l"                 @ string offset=10312
 .Linfo_string621:
-	.asciz	"logb"                  @ string offset=10319
+	.asciz	"logb"                  @ string offset=10318
 .Linfo_string622:
-	.asciz	"logbf"                 @ string offset=10324
+	.asciz	"logbf"                 @ string offset=10323
 .Linfo_string623:
-	.asciz	"logbl"                 @ string offset=10330
+	.asciz	"logbl"                 @ string offset=10329
 .Linfo_string624:
-	.asciz	"lrint"                 @ string offset=10336
+	.asciz	"lrint"                 @ string offset=10335
 .Linfo_string625:
-	.asciz	"lrintf"                @ string offset=10342
+	.asciz	"lrintf"                @ string offset=10341
 .Linfo_string626:
-	.asciz	"lrintl"                @ string offset=10349
+	.asciz	"lrintl"                @ string offset=10348
 .Linfo_string627:
-	.asciz	"lround"                @ string offset=10356
+	.asciz	"lround"                @ string offset=10355
 .Linfo_string628:
-	.asciz	"lroundf"               @ string offset=10363
+	.asciz	"lroundf"               @ string offset=10362
 .Linfo_string629:
-	.asciz	"lroundl"               @ string offset=10371
+	.asciz	"lroundl"               @ string offset=10370
 .Linfo_string630:
-	.asciz	"nan"                   @ string offset=10379
+	.asciz	"nan"                   @ string offset=10378
 .Linfo_string631:
-	.asciz	"nanf"                  @ string offset=10383
+	.asciz	"nanf"                  @ string offset=10382
 .Linfo_string632:
-	.asciz	"nanl"                  @ string offset=10388
+	.asciz	"nanl"                  @ string offset=10387
 .Linfo_string633:
-	.asciz	"nearbyint"             @ string offset=10393
+	.asciz	"nearbyint"             @ string offset=10392
 .Linfo_string634:
-	.asciz	"nearbyintf"            @ string offset=10403
+	.asciz	"nearbyintf"            @ string offset=10402
 .Linfo_string635:
-	.asciz	"nearbyintl"            @ string offset=10414
+	.asciz	"nearbyintl"            @ string offset=10413
 .Linfo_string636:
-	.asciz	"nextafter"             @ string offset=10425
+	.asciz	"nextafter"             @ string offset=10424
 .Linfo_string637:
-	.asciz	"nextafterf"            @ string offset=10435
+	.asciz	"nextafterf"            @ string offset=10434
 .Linfo_string638:
-	.asciz	"nextafterl"            @ string offset=10446
+	.asciz	"nextafterl"            @ string offset=10445
 .Linfo_string639:
-	.asciz	"nexttoward"            @ string offset=10457
+	.asciz	"nexttoward"            @ string offset=10456
 .Linfo_string640:
-	.asciz	"nexttowardf"           @ string offset=10468
+	.asciz	"nexttowardf"           @ string offset=10467
 .Linfo_string641:
-	.asciz	"nexttowardl"           @ string offset=10480
+	.asciz	"nexttowardl"           @ string offset=10479
 .Linfo_string642:
-	.asciz	"__remainder_finite"    @ string offset=10492
+	.asciz	"__remainder_finite"    @ string offset=10491
 .Linfo_string643:
-	.asciz	"remainder"             @ string offset=10511
+	.asciz	"remainder"             @ string offset=10510
 .Linfo_string644:
-	.asciz	"__remainderf_finite"   @ string offset=10521
+	.asciz	"__remainderf_finite"   @ string offset=10520
 .Linfo_string645:
-	.asciz	"remainderf"            @ string offset=10541
+	.asciz	"remainderf"            @ string offset=10540
 .Linfo_string646:
-	.asciz	"remainderl"            @ string offset=10552
+	.asciz	"remainderl"            @ string offset=10551
 .Linfo_string647:
-	.asciz	"remquo"                @ string offset=10563
+	.asciz	"remquo"                @ string offset=10562
 .Linfo_string648:
-	.asciz	"remquof"               @ string offset=10570
+	.asciz	"remquof"               @ string offset=10569
 .Linfo_string649:
-	.asciz	"remquol"               @ string offset=10578
+	.asciz	"remquol"               @ string offset=10577
 .Linfo_string650:
-	.asciz	"rint"                  @ string offset=10586
+	.asciz	"rint"                  @ string offset=10585
 .Linfo_string651:
-	.asciz	"rintf"                 @ string offset=10591
+	.asciz	"rintf"                 @ string offset=10590
 .Linfo_string652:
-	.asciz	"rintl"                 @ string offset=10597
+	.asciz	"rintl"                 @ string offset=10596
 .Linfo_string653:
-	.asciz	"round"                 @ string offset=10603
+	.asciz	"round"                 @ string offset=10602
 .Linfo_string654:
-	.asciz	"roundf"                @ string offset=10609
+	.asciz	"roundf"                @ string offset=10608
 .Linfo_string655:
-	.asciz	"roundl"                @ string offset=10616
+	.asciz	"roundl"                @ string offset=10615
 .Linfo_string656:
-	.asciz	"scalbln"               @ string offset=10623
+	.asciz	"scalbln"               @ string offset=10622
 .Linfo_string657:
-	.asciz	"scalblnf"              @ string offset=10631
+	.asciz	"scalblnf"              @ string offset=10630
 .Linfo_string658:
-	.asciz	"scalblnl"              @ string offset=10640
+	.asciz	"scalblnl"              @ string offset=10639
 .Linfo_string659:
-	.asciz	"scalbn"                @ string offset=10649
+	.asciz	"scalbn"                @ string offset=10648
 .Linfo_string660:
-	.asciz	"scalbnf"               @ string offset=10656
+	.asciz	"scalbnf"               @ string offset=10655
 .Linfo_string661:
-	.asciz	"scalbnl"               @ string offset=10664
+	.asciz	"scalbnl"               @ string offset=10663
 .Linfo_string662:
-	.asciz	"tgamma"                @ string offset=10672
+	.asciz	"tgamma"                @ string offset=10671
 .Linfo_string663:
-	.asciz	"tgammaf"               @ string offset=10679
+	.asciz	"tgammaf"               @ string offset=10678
 .Linfo_string664:
-	.asciz	"tgammal"               @ string offset=10687
+	.asciz	"tgammal"               @ string offset=10686
 .Linfo_string665:
-	.asciz	"trunc"                 @ string offset=10695
+	.asciz	"trunc"                 @ string offset=10694
 .Linfo_string666:
-	.asciz	"truncf"                @ string offset=10701
+	.asciz	"truncf"                @ string offset=10700
 .Linfo_string667:
-	.asciz	"truncl"                @ string offset=10708
+	.asciz	"truncl"                @ string offset=10707
 .Linfo_string668:
-	.asciz	"__default_lock_policy" @ string offset=10715
+	.asciz	"__default_lock_policy" @ string offset=10714
 .Linfo_string669:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEE12_Vector_implC2Ev" @ string offset=10737
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEE12_Vector_implC2Ev" @ string offset=10736
 .Linfo_string670:
-	.asciz	"this"                  @ string offset=10783
+	.asciz	"this"                  @ string offset=10782
 .Linfo_string671:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEEC2Ev" @ string offset=10788
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEEC2Ev" @ string offset=10787
 .Linfo_string672:
-	.asciz	"_ZNSt6vectorIfSaIfEEC2Ev" @ string offset=10820
+	.asciz	"_ZNSt6vectorIfSaIfEEC2Ev" @ string offset=10819
 .Linfo_string673:
-	.asciz	"_ZNSt12_Vector_baseIfSaIfEED2Ev" @ string offset=10845
+	.asciz	"_ZNSt12_Vector_baseIfSaIfEED2Ev" @ string offset=10844
 .Linfo_string674:
-	.asciz	"_ZNSt6vectorIfSaIfEED2Ev" @ string offset=10877
+	.asciz	"_ZNSt6vectorIfSaIfEED2Ev" @ string offset=10876
 .Linfo_string675:
-	.asciz	"__p"                   @ string offset=10902
+	.asciz	"__p"                   @ string offset=10901
 .Linfo_string676:
-	.asciz	"__n"                   @ string offset=10906
+	.asciz	"__n"                   @ string offset=10905
 .Linfo_string677:
-	.asciz	"__a"                   @ string offset=10910
+	.asciz	"__a"                   @ string offset=10909
 .Linfo_string678:
-	.asciz	"sampleBuffer_"         @ string offset=10914
+	.asciz	"sampleBuffer_"         @ string offset=10913
 .Linfo_string679:
-	.asciz	"readPointer_"          @ string offset=10928
+	.asciz	"readPointer_"          @ string offset=10927
 .Linfo_string680:
-	.asciz	"playbackSpeed"         @ string offset=10941
+	.asciz	"playbackSpeed"         @ string offset=10940
 .Linfo_string681:
-	.asciz	"duration_samps"        @ string offset=10955
+	.asciz	"duration_samps"        @ string offset=10954
 .Linfo_string682:
-	.asciz	"filePos"               @ string offset=10970
+	.asciz	"filePos"               @ string offset=10969
 .Linfo_string683:
-	.asciz	"grainPointer"          @ string offset=10978
+	.asciz	"grainPointer"          @ string offset=10977
 .Linfo_string684:
-	.asciz	"randy"                 @ string offset=10991
+	.asciz	"randy"                 @ string offset=10990
 .Linfo_string685:
-	.asciz	"spray_"                @ string offset=10997
+	.asciz	"spray_"                @ string offset=10996
 .Linfo_string686:
-	.asciz	"envelopePointer"       @ string offset=11004
+	.asciz	"envelopePointer"       @ string offset=11003
 .Linfo_string687:
-	.asciz	"samp_ptr"              @ string offset=11020
+	.asciz	"samp_ptr"              @ string offset=11019
 .Linfo_string688:
-	.asciz	"stopped"               @ string offset=11029
+	.asciz	"stopped"               @ string offset=11028
 .Linfo_string689:
-	.asciz	"MonoFilePlayer"        @ string offset=11037
+	.asciz	"GrainGenerator"        @ string offset=11036
 .Linfo_string690:
-	.asciz	"__cxx11"               @ string offset=11052
+	.asciz	"__cxx11"               @ string offset=11051
 .Linfo_string691:
-	.asciz	"basic_string<char, std::char_traits<char>, std::allocator<char> >" @ string offset=11060
+	.asciz	"basic_string<char, std::char_traits<char>, std::allocator<char> >" @ string offset=11059
 .Linfo_string692:
-	.asciz	"string"                @ string offset=11126
+	.asciz	"string"                @ string offset=11125
 .Linfo_string693:
-	.asciz	"_ZN14MonoFilePlayer5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb" @ string offset=11133
+	.asciz	"_ZN14GrainGenerator5setupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEibb" @ string offset=11132
 .Linfo_string694:
-	.asciz	"setup"                 @ string offset=11217
+	.asciz	"setup"                 @ string offset=11216
 .Linfo_string695:
-	.asciz	"_ZN14MonoFilePlayer8setSpeedEf" @ string offset=11223
+	.asciz	"_ZN14GrainGenerator8setSpeedEf" @ string offset=11222
 .Linfo_string696:
-	.asciz	"setSpeed"              @ string offset=11254
+	.asciz	"setSpeed"              @ string offset=11253
 .Linfo_string697:
-	.asciz	"_ZN14MonoFilePlayer11setDurationEi" @ string offset=11263
+	.asciz	"_ZN14GrainGenerator11setDurationEi" @ string offset=11262
 .Linfo_string698:
-	.asciz	"setDuration"           @ string offset=11298
+	.asciz	"setDuration"           @ string offset=11297
 .Linfo_string699:
-	.asciz	"_ZN14MonoFilePlayer10setFilePosEi" @ string offset=11310
+	.asciz	"_ZN14GrainGenerator10setFilePosEi" @ string offset=11309
 .Linfo_string700:
-	.asciz	"setFilePos"            @ string offset=11344
+	.asciz	"setFilePos"            @ string offset=11343
 .Linfo_string701:
-	.asciz	"_ZN14MonoFilePlayer8setSprayEf" @ string offset=11355
+	.asciz	"_ZN14GrainGenerator8setSprayEf" @ string offset=11354
 .Linfo_string702:
-	.asciz	"setSpray"              @ string offset=11386
+	.asciz	"setSpray"              @ string offset=11385
 .Linfo_string703:
-	.asciz	"_ZN14MonoFilePlayer7triggerEv" @ string offset=11395
+	.asciz	"_ZN14GrainGenerator7triggerEv" @ string offset=11394
 .Linfo_string704:
-	.asciz	"trigger"               @ string offset=11425
+	.asciz	"trigger"               @ string offset=11424
 .Linfo_string705:
-	.asciz	"_ZN14MonoFilePlayer4stopEv" @ string offset=11433
+	.asciz	"_ZN14GrainGenerator4stopEv" @ string offset=11432
 .Linfo_string706:
-	.asciz	"stop"                  @ string offset=11460
+	.asciz	"stop"                  @ string offset=11459
 .Linfo_string707:
-	.asciz	"_ZN14MonoFilePlayer4sizeEv" @ string offset=11465
+	.asciz	"_ZN14GrainGenerator4sizeEv" @ string offset=11464
 .Linfo_string708:
-	.asciz	"_ZN14MonoFilePlayer15getSampleBufferEv" @ string offset=11492
+	.asciz	"_ZN14GrainGenerator15getSampleBufferEv" @ string offset=11491
 .Linfo_string709:
-	.asciz	"getSampleBuffer"       @ string offset=11531
+	.asciz	"getSampleBuffer"       @ string offset=11530
 .Linfo_string710:
-	.asciz	"_ZN14MonoFilePlayer7processEv" @ string offset=11547
+	.asciz	"_ZN14GrainGenerator7processEv" @ string offset=11546
 .Linfo_string711:
-	.asciz	"process"               @ string offset=11577
+	.asciz	"process"               @ string offset=11576
 .Linfo_string712:
-	.asciz	"_ZN14MonoFilePlayer20getWindowedAmplitudeEf" @ string offset=11585
+	.asciz	"_ZN14GrainGenerator20getWindowedAmplitudeEf" @ string offset=11584
 .Linfo_string713:
-	.asciz	"getWindowedAmplitude"  @ string offset=11629
+	.asciz	"getWindowedAmplitude"  @ string offset=11628
 .Linfo_string714:
-	.asciz	"~MonoFilePlayer"       @ string offset=11650
+	.asciz	"~GrainGenerator"       @ string offset=11649
 .Linfo_string715:
-	.asciz	"_ZSt4swapIPfENSt9enable_ifIXsr6__and_ISt21is_move_constructibleIT_ESt18is_move_assignableIS3_EEE5valueEvE4typeERS3_S9_" @ string offset=11666
+	.asciz	"_ZSt4swapIPfENSt9enable_ifIXsr6__and_ISt21is_move_constructibleIT_ESt18is_move_assignableIS3_EEE5valueEvE4typeERS3_S9_" @ string offset=11665
 .Linfo_string716:
-	.asciz	"swap<float *>"         @ string offset=11785
+	.asciz	"swap<float *>"         @ string offset=11784
 .Linfo_string717:
-	.asciz	"enable_if<true, void>" @ string offset=11799
+	.asciz	"enable_if<true, void>" @ string offset=11798
 .Linfo_string718:
-	.asciz	"type"                  @ string offset=11821
+	.asciz	"type"                  @ string offset=11820
 .Linfo_string719:
-	.asciz	"__b"                   @ string offset=11826
+	.asciz	"__b"                   @ string offset=11825
 .Linfo_string720:
-	.asciz	"__tmp"                 @ string offset=11830
+	.asciz	"__tmp"                 @ string offset=11829
 .Linfo_string721:
-	.asciz	"__x"                   @ string offset=11836
+	.asciz	"__x"                   @ string offset=11835
 .Linfo_string722:
-	.asciz	"__move_storage"        @ string offset=11840
+	.asciz	"__move_storage"        @ string offset=11839
 .Linfo_string723:
-	.asciz	"_ZL3mapfffff"          @ string offset=11855
+	.asciz	"_ZL3mapfffff"          @ string offset=11854
 .Linfo_string724:
-	.asciz	"map"                   @ string offset=11868
+	.asciz	"map"                   @ string offset=11867
 .Linfo_string725:
-	.asciz	"x"                     @ string offset=11872
+	.asciz	"x"                     @ string offset=11871
 .Linfo_string726:
-	.asciz	"in_min"                @ string offset=11874
+	.asciz	"in_min"                @ string offset=11873
 .Linfo_string727:
-	.asciz	"in_max"                @ string offset=11881
+	.asciz	"in_max"                @ string offset=11880
 .Linfo_string728:
-	.asciz	"out_min"               @ string offset=11888
+	.asciz	"out_min"               @ string offset=11887
 .Linfo_string729:
-	.asciz	"out_max"               @ string offset=11896
+	.asciz	"out_max"               @ string offset=11895
 .Linfo_string730:
-	.asciz	"_ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb" @ string offset=11904
+	.asciz	"_ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb" @ string offset=11903
 .Linfo_string731:
-	.asciz	"filename"              @ string offset=11983
+	.asciz	"filename"              @ string offset=11982
 .Linfo_string732:
-	.asciz	"loop"                  @ string offset=11992
+	.asciz	"loop"                  @ string offset=11991
 .Linfo_string733:
-	.asciz	"autostart"             @ string offset=11997
+	.asciz	"autostart"             @ string offset=11996
 .Linfo_string734:
-	.asciz	"sampleRate"            @ string offset=12007
+	.asciz	"sampleRate"            @ string offset=12006
 .Linfo_string735:
-	.asciz	"max_duration"          @ string offset=12018
+	.asciz	"max_duration"          @ string offset=12017
 .Linfo_string736:
-	.asciz	"speed"                 @ string offset=12031
+	.asciz	"speed"                 @ string offset=12030
 .Linfo_string737:
-	.asciz	"duration"              @ string offset=12037
+	.asciz	"duration"              @ string offset=12036
 .Linfo_string738:
-	.asciz	"sample"                @ string offset=12046
+	.asciz	"sample"                @ string offset=12045
 .Linfo_string739:
-	.asciz	"threshold"             @ string offset=12053
+	.asciz	"threshold"             @ string offset=12052
 .Linfo_string740:
-	.asciz	"samp_increment"        @ string offset=12063
+	.asciz	"samp_increment"        @ string offset=12062
 .Linfo_string741:
-	.asciz	"p_l"                   @ string offset=12078
+	.asciz	"p_l"                   @ string offset=12077
 .Linfo_string742:
-	.asciz	"y"                     @ string offset=12082
+	.asciz	"y"                     @ string offset=12081
 .Linfo_string743:
-	.asciz	"windowVal"             @ string offset=12084
+	.asciz	"windowVal"             @ string offset=12083
 .Linfo_string744:
-	.asciz	"prev_samp"             @ string offset=12094
+	.asciz	"prev_samp"             @ string offset=12093
 .Linfo_string745:
-	.asciz	"frac_below"            @ string offset=12104
+	.asciz	"frac_below"            @ string offset=12103
 .Linfo_string746:
-	.asciz	"frac_above"            @ string offset=12115
+	.asciz	"frac_above"            @ string offset=12114
 .Linfo_string747:
-	.asciz	"out"                   @ string offset=12126
+	.asciz	"out"                   @ string offset=12125
 .Linfo_string748:
-	.asciz	"p_u"                   @ string offset=12130
+	.asciz	"p_u"                   @ string offset=12129
 .Linfo_string749:
-	.asciz	"next_samp"             @ string offset=12134
+	.asciz	"next_samp"             @ string offset=12133
 	.section	.debug_loc,"",%progbits
 .Ldebug_loc0:
 	.long	.Lfunc_begin0-.Lfunc_begin0
@@ -12876,7 +12876,7 @@ gRand:
 	.byte	91
 	.long	16674                   @ DW_AT_object_pointer
 	.byte	1                       @ DW_AT_decl_file
-	.byte	53                      @ DW_AT_decl_line
+	.byte	54                      @ DW_AT_decl_line
 	.long	15555                   @ DW_AT_specification
 	.byte	88                      @ Abbrev [88] 0x4122:0xd DW_TAG_formal_parameter
 	.long	.Ldebug_loc20           @ DW_AT_location
@@ -12888,7 +12888,7 @@ gRand:
 	.long	.Ltmp59                 @ DW_AT_low_pc
 	.long	.Ltmp60-.Ltmp59         @ DW_AT_high_pc
 	.byte	1                       @ DW_AT_call_file
-	.byte	55                      @ DW_AT_call_line
+	.byte	56                      @ DW_AT_call_line
 	.byte	106                     @ Abbrev [106] 0x413e:0x11 DW_TAG_inlined_subroutine
 	.long	16077                   @ DW_AT_abstract_origin
 	.long	.Ltmp59                 @ DW_AT_low_pc
@@ -12905,7 +12905,7 @@ gRand:
 	.byte	93
 	.long	16742                   @ DW_AT_object_pointer
 	.byte	1                       @ DW_AT_decl_file
-	.byte	62                      @ DW_AT_decl_line
+	.byte	63                      @ DW_AT_decl_line
 	.long	15463                   @ DW_AT_specification
 	.byte	107                     @ Abbrev [107] 0x4166:0xb DW_TAG_formal_parameter
 	.byte	1                       @ DW_AT_location
@@ -12921,7 +12921,7 @@ gRand:
 	.byte	4
 	.long	.Linfo_string736        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	62                      @ DW_AT_decl_line
+	.byte	63                      @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	0                       @ End Of Children Mark
 	.byte	100                     @ Abbrev [100] 0x4183:0x2e DW_TAG_subprogram
@@ -12931,7 +12931,7 @@ gRand:
 	.byte	93
 	.long	16792                   @ DW_AT_object_pointer
 	.byte	1                       @ DW_AT_decl_file
-	.byte	66                      @ DW_AT_decl_line
+	.byte	67                      @ DW_AT_decl_line
 	.long	15486                   @ DW_AT_specification
 	.byte	107                     @ Abbrev [107] 0x4198:0xb DW_TAG_formal_parameter
 	.byte	1                       @ DW_AT_location
@@ -12944,7 +12944,7 @@ gRand:
 	.byte	81
 	.long	.Linfo_string737        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	66                      @ DW_AT_decl_line
+	.byte	67                      @ DW_AT_decl_line
 	.long	55                      @ DW_AT_type
 	.byte	0                       @ End Of Children Mark
 	.byte	100                     @ Abbrev [100] 0x41b1:0x2e DW_TAG_subprogram
@@ -12954,7 +12954,7 @@ gRand:
 	.byte	93
 	.long	16838                   @ DW_AT_object_pointer
 	.byte	1                       @ DW_AT_decl_file
-	.byte	70                      @ DW_AT_decl_line
+	.byte	71                      @ DW_AT_decl_line
 	.long	15509                   @ DW_AT_specification
 	.byte	107                     @ Abbrev [107] 0x41c6:0xb DW_TAG_formal_parameter
 	.byte	1                       @ DW_AT_location
@@ -12967,7 +12967,7 @@ gRand:
 	.byte	81
 	.long	.Linfo_string682        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	70                      @ DW_AT_decl_line
+	.byte	71                      @ DW_AT_decl_line
 	.long	55                      @ DW_AT_type
 	.byte	0                       @ End Of Children Mark
 	.byte	108                     @ Abbrev [108] 0x41df:0x48 DW_TAG_subprogram
@@ -13010,7 +13010,7 @@ gRand:
 	.byte	93
 	.long	16956                   @ DW_AT_object_pointer
 	.byte	1                       @ DW_AT_decl_file
-	.byte	75                      @ DW_AT_decl_line
+	.byte	76                      @ DW_AT_decl_line
 	.long	15657                   @ DW_AT_specification
 	.byte	107                     @ Abbrev [107] 0x423c:0xb DW_TAG_formal_parameter
 	.byte	1                       @ DW_AT_location
@@ -13022,19 +13022,19 @@ gRand:
 	.long	.Ldebug_loc21           @ DW_AT_location
 	.long	.Linfo_string738        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	75                      @ DW_AT_decl_line
+	.byte	76                      @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	102                     @ Abbrev [102] 0x4256:0xf DW_TAG_variable
 	.long	.Ldebug_loc26           @ DW_AT_location
 	.long	.Linfo_string739        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	76                      @ DW_AT_decl_line
+	.byte	77                      @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	90                      @ Abbrev [90] 0x4265:0x30 DW_TAG_inlined_subroutine
 	.long	16863                   @ DW_AT_abstract_origin
 	.long	.Ldebug_ranges9         @ DW_AT_ranges
 	.byte	1                       @ DW_AT_call_file
-	.byte	78                      @ DW_AT_call_line
+	.byte	79                      @ DW_AT_call_line
 	.byte	96                      @ Abbrev [96] 0x4270:0x9 DW_TAG_formal_parameter
 	.long	.Ldebug_loc25           @ DW_AT_location
 	.long	16890                   @ DW_AT_abstract_origin
@@ -13070,7 +13070,7 @@ gRand:
 	.byte	91
 	.long	17099                   @ DW_AT_object_pointer
 	.byte	1                       @ DW_AT_decl_file
-	.byte	86                      @ DW_AT_decl_line
+	.byte	87                      @ DW_AT_decl_line
 	.long	15635                   @ DW_AT_specification
 	.byte	88                      @ Abbrev [88] 0x42cb:0xd DW_TAG_formal_parameter
 	.long	.Ldebug_loc27           @ DW_AT_location
@@ -13081,63 +13081,63 @@ gRand:
 	.long	.Ldebug_loc28           @ DW_AT_location
 	.long	.Linfo_string740        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	91                      @ DW_AT_decl_line
+	.byte	92                      @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	102                     @ Abbrev [102] 0x42e7:0xf DW_TAG_variable
 	.long	.Ldebug_loc29           @ DW_AT_location
 	.long	.Linfo_string741        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	93                      @ DW_AT_decl_line
+	.byte	94                      @ DW_AT_decl_line
 	.long	55                      @ DW_AT_type
 	.byte	102                     @ Abbrev [102] 0x42f6:0xf DW_TAG_variable
 	.long	.Ldebug_loc30           @ DW_AT_location
 	.long	.Linfo_string742        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	97                      @ DW_AT_decl_line
+	.byte	98                      @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	102                     @ Abbrev [102] 0x4305:0xf DW_TAG_variable
 	.long	.Ldebug_loc31           @ DW_AT_location
 	.long	.Linfo_string743        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	107                     @ DW_AT_decl_line
+	.byte	108                     @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	102                     @ Abbrev [102] 0x4314:0xf DW_TAG_variable
 	.long	.Ldebug_loc32           @ DW_AT_location
 	.long	.Linfo_string744        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	100                     @ DW_AT_decl_line
+	.byte	101                     @ DW_AT_decl_line
 	.long	55                      @ DW_AT_type
 	.byte	46                      @ Abbrev [46] 0x4323:0xb DW_TAG_variable
 	.long	.Linfo_string745        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	102                     @ DW_AT_decl_line
+	.byte	103                     @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	46                      @ Abbrev [46] 0x432e:0xb DW_TAG_variable
 	.long	.Linfo_string746        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	103                     @ DW_AT_decl_line
+	.byte	104                     @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	102                     @ Abbrev [102] 0x4339:0xf DW_TAG_variable
 	.long	.Ldebug_loc34           @ DW_AT_location
 	.long	.Linfo_string747        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	104                     @ DW_AT_decl_line
+	.byte	105                     @ DW_AT_decl_line
 	.long	7038                    @ DW_AT_type
 	.byte	46                      @ Abbrev [46] 0x4348:0xb DW_TAG_variable
 	.long	.Linfo_string748        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	94                      @ DW_AT_decl_line
+	.byte	95                      @ DW_AT_decl_line
 	.long	55                      @ DW_AT_type
 	.byte	46                      @ Abbrev [46] 0x4353:0xb DW_TAG_variable
 	.long	.Linfo_string749        @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
-	.byte	101                     @ DW_AT_decl_line
+	.byte	102                     @ DW_AT_decl_line
 	.long	55                      @ DW_AT_type
 	.byte	109                     @ Abbrev [109] 0x435e:0x16 DW_TAG_inlined_subroutine
 	.long	17046                   @ DW_AT_abstract_origin
 	.long	.Ldebug_ranges10        @ DW_AT_ranges
 	.byte	1                       @ DW_AT_call_file
-	.byte	104                     @ DW_AT_call_line
+	.byte	105                     @ DW_AT_call_line
 	.byte	1                       @ DW_AT_GNU_discriminator
 	.byte	96                      @ Abbrev [96] 0x436a:0x9 DW_TAG_formal_parameter
 	.long	.Ldebug_loc33           @ DW_AT_location
@@ -13238,20 +13238,20 @@ gRand:
 	.short	2                       @ DWARF Version
 	.long	.Lcu_begin0             @ Offset of Compilation Unit Info
 	.long	17275                   @ Compilation Unit Length
-	.long	15714                   @ DIE offset
-	.asciz	"MonoFilePlayer::MonoFilePlayer" @ External Name
-	.long	16935                   @ DIE offset
-	.asciz	"MonoFilePlayer::getWindowedAmplitude" @ External Name
+	.long	16653                   @ DIE offset
+	.asciz	"GrainGenerator::trigger" @ External Name
 	.long	4078                    @ DIE offset
 	.asciz	"std::__debug"          @ External Name
 	.long	14975                   @ DIE offset
 	.asciz	"std::_Vector_base<float, std::allocator<float> >::_Vector_impl::_Vector_impl" @ External Name
+	.long	16721                   @ DIE offset
+	.asciz	"GrainGenerator::setSpeed" @ External Name
+	.long	16817                   @ DIE offset
+	.asciz	"GrainGenerator::setFilePos" @ External Name
 	.long	8601                    @ DIE offset
 	.asciz	"std"                   @ External Name
-	.long	16142                   @ DIE offset
-	.asciz	"MonoFilePlayer::setup" @ External Name
-	.long	16653                   @ DIE offset
-	.asciz	"MonoFilePlayer::trigger" @ External Name
+	.long	17078                   @ DIE offset
+	.asciz	"GrainGenerator::process" @ External Name
 	.long	6919                    @ DIE offset
 	.asciz	"std::__cxx11"          @ External Name
 	.long	15062                   @ DIE offset
@@ -13262,14 +13262,10 @@ gRand:
 	.asciz	"std::vector<float, std::allocator<float> >::begin" @ External Name
 	.long	15981                   @ DIE offset
 	.asciz	"std::vector<float, std::allocator<float> >::_M_move_assign" @ External Name
-	.long	16817                   @ DIE offset
-	.asciz	"MonoFilePlayer::setFilePos" @ External Name
-	.long	16721                   @ DIE offset
-	.asciz	"MonoFilePlayer::setSpeed" @ External Name
-	.long	17078                   @ DIE offset
-	.asciz	"MonoFilePlayer::process" @ External Name
 	.long	16863                   @ DIE offset
 	.asciz	"map"                   @ External Name
+	.long	16771                   @ DIE offset
+	.asciz	"GrainGenerator::setDuration" @ External Name
 	.long	4767                    @ DIE offset
 	.asciz	"std::__exception_ptr"  @ External Name
 	.long	15195                   @ DIE offset
@@ -13292,8 +13288,10 @@ gRand:
 	.asciz	"std::vector<float, std::allocator<float> >::size" @ External Name
 	.long	7393                    @ DIE offset
 	.asciz	"__gnu_debug"           @ External Name
-	.long	16771                   @ DIE offset
-	.asciz	"MonoFilePlayer::setDuration" @ External Name
+	.long	16935                   @ DIE offset
+	.asciz	"GrainGenerator::getWindowedAmplitude" @ External Name
+	.long	15714                   @ DIE offset
+	.asciz	"GrainGenerator::GrainGenerator" @ External Name
 	.long	6944                    @ DIE offset
 	.asciz	"std::swap<float *>"    @ External Name
 	.long	15004                   @ DIE offset
@@ -13302,6 +13300,8 @@ gRand:
 	.asciz	"__gnu_cxx"             @ External Name
 	.long	16033                   @ DIE offset
 	.asciz	"std::vector<float, std::allocator<float> >::operator=" @ External Name
+	.long	16142                   @ DIE offset
+	.asciz	"GrainGenerator::setup" @ External Name
 	.long	0                       @ End Mark
 .LpubNames_end0:
 	.section	.debug_pubtypes,"",%progbits
@@ -13338,6 +13338,8 @@ gRand:
 	.asciz	"std::_Vector_base<float, std::allocator<float> >" @ External Name
 	.long	9267                    @ DIE offset
 	.asciz	"long unsigned int"     @ External Name
+	.long	15238                   @ DIE offset
+	.asciz	"GrainGenerator"        @ External Name
 	.long	9859                    @ DIE offset
 	.asciz	"uint16_t"              @ External Name
 	.long	7979                    @ DIE offset
@@ -13450,8 +13452,6 @@ gRand:
 	.asciz	"mbstate_t"             @ External Name
 	.long	9936                    @ DIE offset
 	.asciz	"uint_least8_t"         @ External Name
-	.long	15238                   @ DIE offset
-	.asciz	"MonoFilePlayer"        @ External Name
 	.long	311                     @ DIE offset
 	.asciz	"__gnu_cxx::new_allocator<float>" @ External Name
 	.long	9673                    @ DIE offset
@@ -13494,9 +13494,9 @@ gRand:
 .LpubTypes_end0:
 	.cfi_sections .debug_frame
 
-	.globl	_ZN14MonoFilePlayerC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
-	.type	_ZN14MonoFilePlayerC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb,%function
-_ZN14MonoFilePlayerC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb = _ZN14MonoFilePlayerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
+	.globl	_ZN14GrainGeneratorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
+	.type	_ZN14GrainGeneratorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb,%function
+_ZN14GrainGeneratorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb = _ZN14GrainGeneratorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb
 	.ident	"clang version 3.9.1-9 (tags/RELEASE_391/rc2)"
 	.section	".note.GNU-stack","",%progbits
 	.eabi_attribute	30, 2	@ Tag_ABI_optimization_goals
