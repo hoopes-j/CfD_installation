@@ -1,5 +1,9 @@
 ## __Physical Properties__
 
+### _**subsections**_
+
+[technical specs considerations](./tech_spec_considerations/tech_spec_considerations.md)
+
 ### *Continuous  Interaction*
 Below are some pictures of the installation space, pictured with 2 different distances (as denoted by the measuring tape on the ground). These distances represent the range of our long range sensor. Any one that walks by within this distance of the wall will trigger the ‘continuous’ aspect of the interaction. The first image demonstrates a sensor range of 3 meters, and the second demonstrates 2 meters.
 
