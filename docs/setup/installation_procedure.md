@@ -2,6 +2,22 @@
 
 # Installation Setup Procedure <br> *DRS Conference - Bilbao 2022*
 
+## Table of Contents
+
+- [overview of materials](#overview---materials)
+- [material descriptions](#material-descriptions)
+    - [Shutdown Button](#shutdown-button)
+    - [Audio Jack](#audio-jack)
+    - [Sensor Connections](#sensor-connections)
+    - [Volume Knob](#volume-knob)
+    - [USB Port](#usb-port)
+- [Sensor Setup](#device-setup)
+- [Software Setup](#configuring-the-software)
+    - [Connecting to the Device](#step-1---connecting-to-the-bela)
+    - [Distance Configuration](#step-2---measuring-the-distance)
+    - [Initiating the Program](#step-3---setting-the-program-to-run)
+
+
 
 ## **Overview** - *Materials*
 
@@ -16,6 +32,7 @@ In the shipped materials, you will find the following materials:
 - 4 white distance sensor mounts
 - 1 clear small screwdriver
 - 2 sensor extension cables (these will have the same connectors as the sensors)
+- 2 audio cables
 
 ### Material Descriptions
 
@@ -43,7 +60,7 @@ The device can tend to be a bit unresponsive, especially if the program is runni
 
 If the device is connected via USB to a computer, it is important that you shut the device down before removing the USB cable from the computer - It could possibly corrupt files on the device if it is not shutdown first (similar to how you eject a USB drive before removing).
 
-#### **Volume Button**
+#### **Volume Knob**
 
 This will control the master volume of the audio coming out of the device. Turn right to turn the volume up, turn left to turn it down.
 
@@ -69,7 +86,7 @@ There are 2 USB cables + power bricks included in the packing materials.
 The smaller end gets plugged in to the device. The larger usb end gets plugged into the power brick (or computer if you are making configuration changes)
 
 
-## Device Setup
+## **Device Setup**
 
 
 **Step 1** - The first thing that should be done is to set up the sensors. 
@@ -85,7 +102,7 @@ However, before leaving the installation running, there is some quick configurat
 
 
 
-## Configuring the Software
+## **Software Setup**
 
 Since I was not familiar with the installation space when building the software, the max distance must be defined for the sensor trigger range. As defined now in the software, the distance is set to 400, or approximately 4 meters. Following the below steps will allow you to configure this distance value easily.
 
