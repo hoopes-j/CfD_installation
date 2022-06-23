@@ -108,7 +108,7 @@ However, before leaving the installation running, there is some quick configurat
 
 Since I was not familiar with the installation space when building the software, the max distance must be defined for the sensor trigger range. As defined now in the software, the distance is set to 400, or approximately 4 meters. Following the below steps will allow you to configure this distance value easily.
 
-A video walkthrough is available here: https://youtu.be/Zn_2XN4Bq1I 
+A [video walkthrough](https://youtu.be/Zn_2XN4Bq1I) is also available [here](https://youtu.be/Zn_2XN4Bq1I).
 
 #### **Step 1 - Connecting to the Bela**
 
