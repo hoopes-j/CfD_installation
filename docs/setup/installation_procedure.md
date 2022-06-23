@@ -151,7 +151,7 @@ This value should be in the hundreds (the unit is roughly correlated to centimet
 
 1. First, set PRINT_DISTANCE to true. This will tell the device to print out the distance readings from the sensors. The line should now read: 
 	
-	#define PRINT_DISTANCE true
+        #define PRINT_DISTANCE true
 
 2. Hit the “run” button in the bottom toolbar. This is the button with the circular arrow, directly the left of the stop button
 
