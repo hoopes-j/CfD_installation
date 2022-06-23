@@ -35,7 +35,7 @@ The available ports / buttons are as follows:
      style="float: left;
     margin-right: 10px; padding-bottom: 10px;" />
 
-**Shutdown Button**
+#### **Shutdown Button**
 
 This is the button to shutdown the device. To initiate shutdown, you will need to hold it down for about 5 seconds. It may take a few extra seconds after releasing for it to turn off. You will know that its off when the blue LED lights inside the box stop blinking. You can see these through the main USB port, or through the small hole to the left of the audio jack.  
 
@@ -43,26 +43,26 @@ The device can tend to be a bit unresponsive, especially if the program is runni
 
 If the device is connected via USB to a computer, it is important that you shut the device down before removing the USB cable from the computer - It could possibly corrupt files on the device if it is not shutdown first (similar to how you eject a USB drive before removing).
 
-**Volume Button**
+#### **Volume Button**
 
 This will control the master volume of the audio coming out of the device. Turn right to turn the volume up, turn left to turn it down.
 
-**Sensor Connections**
+#### **Sensor Connections**
 
 Each device will be controlled by 2 of the distance sensors. You will see 2 connectors sticking out of the device - 1 for each sensor. 
 
 To connect the sensors, simply plug the end of the sensors, simply plug the end of the sensor’s cable into one of the connectors.
 
->**Important**: The sensors with the **white** cables **must** be plugged into the device with the **white** volume knob. The sensors with the **black** cables **must** be plugged into the > device with the **red** volume knob (and silver audio jack). Because of the wiring, the sensors will not work if these are reversed.
+>**Important**: The sensors with the **white** cables **must** be plugged into the device with the **white** volume knob. The sensors with the **black** cables **must** be plugged into the  device with the **red** volume knob (and silver audio jack). Because of the wiring, the sensors will not work if these are reversed.
 
 >**Important**: To disconnect the sensors, press down on the small latch on the connector and pull the connectors apart. The latch is on the device side of the connections
 When disconnecting the sensors, please try to hold and pull from the black plastic connections - its possible that pulling on the cables might rip the cables out of the connectors
 
-**Audio Jack**
+#### **Audio Jack**
 
 The audio jack is a 3.5mm TRS audio jack. I’ve included 2 audio cables within the packing materials. The output is a stereo signal, where each of the two channels corresponds to output from one of the sensors 
 
-**USB Port**
+#### **USB Port**
 
 There are 2 USB cables + power bricks included in the packing materials. 
 
@@ -72,15 +72,15 @@ The smaller end gets plugged in to the device. The larger usb end gets plugged i
 ## Device Setup
 
 
-The first thing that should be done is to set up the sensors. 
+**Step 1** - The first thing that should be done is to set up the sensors. 
 
 Inside the packing materials, I’ve included a white mount for each sensor. The side of the casing acts like a latch, you can open it up and place the sensor cable inside so that the sensor sticks out the top (I believe Estefania has a video of me doing this)
 
 The back of the casing has 3M adhesive backing - but be careful where you stick them, the adhesive is very strong…
 
-Then, connect the sensor cables to the device connectors. Consult [cable section] on how to do this. 
+**Step 2** - Then, connect the sensor cables to the device connectors. Consult the [cable section](#sensor-connections) on how to do this. It is very important that the cable colors are matched to the right devices, otherwise the sensors will not work
 
-The last step is connect the device to a power source, via the [USB port]. When the installation is left to run, this should be plugged in to the power brick. 
+**Step 3** - The last step is connect the device to a power source, via the [USB port](#usb-port). When the installation is left to run, this should be plugged in to the power brick. 
 However, before leaving the installation running, there is some quick configuration that must be done, which requires the device to be plugged into a computer. This **MUST** be done before the installation will run. Read on in the next section…
 
 
@@ -99,12 +99,17 @@ The first step is to connect your laptop to the Bela in order to edit the config
 
 3. When the page loads, you should see something like this:
 
- <img src="./BELA_SIDE.png"
+ <img src="./BELA_IDE.png"
      alt="Markdown Monster icon"
      style="float: left;
     margin-right: 10px; padding-bottom: 10px;" />
 
 4. Now you must navigate to the installation configuration file. In the `Project Explorer` pane of the right side of the screen, click `INSTALLATION_CONFIGURATION.h`. The file on your screen should now look like this: 
+
+ <img src="./BELA_CONFIGURATION.png"
+     alt="Markdown Monster icon"
+     style="float: left;
+    margin-right: 10px; padding-bottom: 10px;" />
 
 
 #### **Step 2 - Measuring the Distance**
@@ -129,8 +134,10 @@ This value should be in the hundreds (the unit is roughly correlated to centimet
 
 2. Hit the “run” button in the bottom toolbar. This is the button with the circular arrow, directly the left of the stop button
 
-
-
+ <img src="./RUN_BUTTON.png"
+     alt="Markdown Monster icon"
+     style="float: left;
+    margin-right: 10px; padding-bottom: 10px;" />
 
 
 
@@ -158,7 +165,12 @@ AFTER MAKING ANY CONFIGURATION CHANGES, YOU MUST HIT THE RUN BUTTON AND WAIT FOR
 
 Now that the software has been configured, you must set the device to run the program automatically. In addition to the textual instructions, a video walkthrough is provided below
 
-**Step 1** - click on the settings button in the right side toolbar. 
+**Step 1** - click on the settings button in the right side toolbar (pictured below)
+
+ <img src="./SETTINGS_BUTTON.png"
+     alt="Markdown Monster icon"
+     style="float: left;
+    margin-right: 10px; padding-bottom: 10px;" />
 
 **Step 2** - There should be a dropdown menu at the top of the right pane that says `run on boot`. click this dropdown menu and select `_cfd_bilbao`
 
