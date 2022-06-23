@@ -161,6 +161,8 @@ Leaving this as true will cause the CPU usage of the program to be higher than u
 AFTER MAKING ANY CONFIGURATION CHANGES, YOU MUST HIT THE RUN BUTTON AND WAIT FOR IT TO BUILD BEFORE DISCONNECTING YOUR COMPUTER FROM THE BELA, OTHERWISE IT WILL NOT RUN THE UPDATED PROGRAM WITH THE BELA REBOOTS
 
 
+There are some additional parameters that can be configured, more information is given about them [here](./configuration.md) 
+
 #### **Step 3 - Setting the Program to Run**
 
 Now that the software has been configured, you must set the device to run the program automatically. In addition to the textual instructions, a video walkthrough is provided below
