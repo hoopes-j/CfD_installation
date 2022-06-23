@@ -134,10 +134,14 @@ This value should be in the hundreds (the unit is roughly correlated to centimet
 
 2. Hit the “run” button in the bottom toolbar. This is the button with the circular arrow, directly the left of the stop button
 
+<div style="width: 100%;">
  <img src="./RUN_BUTTON.png"
      alt="Markdown Monster icon"
      style="float: left;
     margin-right: 10px; padding-bottom: 10px;" />
+</div>
+
+
 
 
 
@@ -169,10 +173,12 @@ Now that the software has been configured, you must set the device to run the pr
 
 **Step 1** - click on the settings button in the right side toolbar (pictured below)
 
+<div style="width: 100%;">
  <img src="./SETTINGS_BUTTON.png"
      alt="Markdown Monster icon"
      style="float: left;
     margin-right: 10px; padding-bottom: 10px;" />
+</div>
 
 **Step 2** - There should be a dropdown menu at the top of the right pane that says `run on boot`. click this dropdown menu and select `_cfd_bilbao`
 
