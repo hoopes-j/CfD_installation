@@ -119,7 +119,7 @@ This step will involve invoking the print_distance mode of the software. This mo
 
 The distances will be printed in the following format: 
 
-sensor_1: [distance1]        sensor_2: [distance2]
+    sensor_1: [distance1]        sensor_2: [distance2]
 
 The number being printed represents the distance reading from the sensor. The larger the number, the larger the distance.
 
